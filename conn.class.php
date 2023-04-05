@@ -39,7 +39,7 @@ class conn{
         $this->setPorta($ini['local']['database']);
 
 
-        $tns = "(DESCRIPTION = (ADDRESS = (PROTOCOL = TCP)(HOST = ".$this->server.")(PORT = ".$this->porta.")) (CONNECT_DATA = (SID = ".$this->database.")))";
+        $tns = "(DESCRIPTION = (ADDRESS = (PROTOCOL = TCP)(HOST = ".$this->server.")(PORT = ".$this->porta.")) (CONNECT_DATA = (SID = xe)))";
 
         try{
             $conecta = oci_connect($this->usuario, $this->senha, $tns);

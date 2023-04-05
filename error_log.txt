@@ -1,0 +1,150 @@
+[31-Mar-2023 13:16:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function oci_parse() in C:\wamp64\www\CRUD\index.php:110
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\CRUD\index.php on line 110
+[03-Apr-2023 13:06:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function oci_parse() in C:\wamp64\www\CRUD\index.php:110
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\CRUD\index.php on line 110
+[04-Apr-2023 04:42:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function oci_parse() in C:\wamp64\www\CRUD\index.php:110
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\CRUD\index.php on line 110
+[04-Apr-2023 05:01:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function oci_parse() in C:\wamp64\www\CRUD\index.php:110
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\CRUD\index.php on line 110
+[04-Apr-2023 05:04:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function oci_parse() in C:\wamp64\www\CRUD\index.php:110
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\CRUD\index.php on line 110
+[04-Apr-2023 05:04:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function oci_parse() in C:\wamp64\www\CRUD\index.php:110
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\CRUD\index.php on line 110
+[04-Apr-2023 05:05:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function oci_parse() in C:\wamp64\www\CRUD\index.php:110
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\CRUD\index.php on line 110
+[04-Apr-2023 12:55:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function oci_parse() in C:\wamp64\www\CRUD\index.php:110
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\CRUD\index.php on line 110
+[04-Apr-2023 13:29:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function oci_parse() in C:\wamp64\www\CRUD\index.php:110
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\CRUD\index.php on line 110
+[04-Apr-2023 16:50:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function oci_parse() in C:\wamp64\www\CRUD\index.php:110
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\CRUD\index.php on line 110
+[04-Apr-2023 19:39:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function oci_parse() in C:\wamp64\www\CRUD\index.php:110
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\CRUD\index.php on line 110
+[05-Apr-2023 04:46:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function oci_parse() in C:\wamp64\www\CRUD\index.php:110
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\CRUD\index.php on line 110
+[05-Apr-2023 04:46:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function oci_parse() in C:\wamp64\www\CRUD\index.php:110
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\CRUD\index.php on line 110
+[05-Apr-2023 04:50:03 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\CRUD\index.php on line 149
+[05-Apr-2023 04:50:03 UTC] PHP Stack trace:
+[05-Apr-2023 04:50:03 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[05-Apr-2023 04:50:03 UTC] PHP Notice:  Undefined variable: n in C:\wamp64\www\CRUD\index.php on line 153
+[05-Apr-2023 04:50:03 UTC] PHP Stack trace:
+[05-Apr-2023 04:50:03 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[05-Apr-2023 04:50:03 UTC] PHP Notice:  Undefined variable: t in C:\wamp64\www\CRUD\index.php on line 157
+[05-Apr-2023 04:50:03 UTC] PHP Stack trace:
+[05-Apr-2023 04:50:03 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[05-Apr-2023 04:51:46 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\CRUD\index.php on line 149
+[05-Apr-2023 04:51:46 UTC] PHP Stack trace:
+[05-Apr-2023 04:51:46 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[05-Apr-2023 04:51:46 UTC] PHP Notice:  Undefined variable: n in C:\wamp64\www\CRUD\index.php on line 153
+[05-Apr-2023 04:51:46 UTC] PHP Stack trace:
+[05-Apr-2023 04:51:46 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[05-Apr-2023 04:51:46 UTC] PHP Notice:  Undefined variable: t in C:\wamp64\www\CRUD\index.php on line 157
+[05-Apr-2023 04:51:46 UTC] PHP Stack trace:
+[05-Apr-2023 04:51:46 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[05-Apr-2023 04:54:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function oci_connect() in C:\wamp64\www\CRUD\index.php:115
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\CRUD\index.php on line 115
+[05-Apr-2023 04:55:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function oci_connect() in C:\wamp64\www\CRUD\index.php:115
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\CRUD\index.php on line 115
+[05-Apr-2023 04:56:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function oci_connect() in C:\wamp64\www\CRUD\index.php:115
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\CRUD\index.php on line 115
+[05-Apr-2023 04:57:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function oci_connect() in C:\wamp64\www\CRUD\index.php:115
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\CRUD\index.php on line 115
+[05-Apr-2023 04:57:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function oci_connect() in C:\wamp64\www\CRUD\index.php:115
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\CRUD\index.php on line 115
+[05-Apr-2023 05:00:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function oci_connect() in C:\wamp64\www\CRUD\index.php:115
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\CRUD\index.php on line 115
+[05-Apr-2023 05:00:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function oci_connect() in C:\wamp64\www\CRUD\index.php:115
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\CRUD\index.php on line 115
+[05-Apr-2023 05:01:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function oci_connect() in C:\wamp64\www\CRUD\index.php:115
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\CRUD\index.php on line 115
+[05-Apr-2023 05:01:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function oci_connect() in C:\wamp64\www\CRUD\index.php:115
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\CRUD\index.php on line 115
+[05-Apr-2023 05:08:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function oci_connect() in C:\wamp64\www\CRUD\index.php:115
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\CRUD\index.php on line 115
+[05-Apr-2023 05:10:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function oci_connect() in C:\wamp64\www\CRUD\index.php:115
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\CRUD\index.php on line 115
+[05-Apr-2023 05:12:34 UTC] PHP Notice:  Undefined variable: senha in C:\wamp64\www\CRUD\index.php on line 116
+[05-Apr-2023 05:12:34 UTC] PHP Stack trace:
+[05-Apr-2023 05:12:34 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[05-Apr-2023 05:12:34 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\CRUD\index.php on line 160
+[05-Apr-2023 05:12:34 UTC] PHP Stack trace:
+[05-Apr-2023 05:12:34 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[05-Apr-2023 05:12:34 UTC] PHP Notice:  Undefined variable: n in C:\wamp64\www\CRUD\index.php on line 164
+[05-Apr-2023 05:12:34 UTC] PHP Stack trace:
+[05-Apr-2023 05:12:34 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[05-Apr-2023 05:12:34 UTC] PHP Notice:  Undefined variable: t in C:\wamp64\www\CRUD\index.php on line 168
+[05-Apr-2023 05:12:34 UTC] PHP Stack trace:
+[05-Apr-2023 05:12:34 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[05-Apr-2023 05:14:08 UTC] PHP Notice:  Undefined variable: senha in C:\wamp64\www\CRUD\index.php on line 116
+[05-Apr-2023 05:14:08 UTC] PHP Stack trace:
+[05-Apr-2023 05:14:08 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[05-Apr-2023 05:14:08 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\CRUD\index.php on line 160
+[05-Apr-2023 05:14:08 UTC] PHP Stack trace:
+[05-Apr-2023 05:14:08 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[05-Apr-2023 05:14:08 UTC] PHP Notice:  Undefined variable: n in C:\wamp64\www\CRUD\index.php on line 164
+[05-Apr-2023 05:14:08 UTC] PHP Stack trace:
+[05-Apr-2023 05:14:08 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[05-Apr-2023 05:14:08 UTC] PHP Notice:  Undefined variable: t in C:\wamp64\www\CRUD\index.php on line 168
+[05-Apr-2023 05:14:08 UTC] PHP Stack trace:
+[05-Apr-2023 05:14:08 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[05-Apr-2023 05:15:13 UTC] PHP Notice:  Undefined variable: senha in C:\wamp64\www\CRUD\index.php on line 116
+[05-Apr-2023 05:15:13 UTC] PHP Stack trace:
+[05-Apr-2023 05:15:13 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[05-Apr-2023 05:15:13 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\CRUD\index.php on line 160
+[05-Apr-2023 05:15:13 UTC] PHP Stack trace:
+[05-Apr-2023 05:15:13 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[05-Apr-2023 05:15:13 UTC] PHP Notice:  Undefined variable: n in C:\wamp64\www\CRUD\index.php on line 164
+[05-Apr-2023 05:15:13 UTC] PHP Stack trace:
+[05-Apr-2023 05:15:13 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[05-Apr-2023 05:15:13 UTC] PHP Notice:  Undefined variable: t in C:\wamp64\www\CRUD\index.php on line 168
+[05-Apr-2023 05:15:13 UTC] PHP Stack trace:
+[05-Apr-2023 05:15:13 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0

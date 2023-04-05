@@ -2,7 +2,7 @@
 
 require 'conn.class.php';
 
-ini_set('display_errors', 0);
+ini_set('display_errors', 1);
 ini_set('log_errors', 1);
 ini_set('error_log', dirname(__FILE__).'/error_log.txt');
 
@@ -20,8 +20,8 @@ if($_POST){
         case "cad":
             // Cadastro
             try{
-                $ultId = oci_parse($conecta->conectaBanco(), $conecta->ultimoId("tabela1", "id"));
-                $sql = "INSERT INTO tabela1 (id, nome, telefone) VALUES (".$ultId.", ".$nome.", ".$telefone.")";
+                $ultId = oci_parse($conecta->conectaBanco(), $conecta->ultimoId("tabela_nome", "id"));
+                $sql = "INSERT INTO tabela_nome (id, nome, telefone) VALUES (".$ultId.", ".$nome.", ".$telefone.")";
     
                 $res = oci_parse($conecta->conectaBanco(), $sql);
                 if(!$res){
@@ -103,11 +103,25 @@ if($_POST){
             </thead>
             <tbody>
                 <?php
-                    $sql = "SELECT id, nome, telefone FROM tabela1";
+                    $sql = "SELECT id, nome, telefone FROM tabela_nome";
 
                     try{
+                        $tns = "(DESCRIPTION = (ADDRESS = (PROTOCOL = TCP)(HOST = localhost)(PORT = 1521)) (CONNECT_DATA = (SID = xe)))";
 
-                        $res = oci_parse($conecta->conectaBanco(), $sql);
+                        $database = "dboracle";
+                        $usuario = "system";
+                        $pass = "m0d#lM";
+
+                        $conn = oci_connect($usuario, $pass, "//localhost/XE");
+//                        $conn = new PDO("oci:dbname=dboracle;charset=utf8", $usuario, $senha);
+
+                        if(!$conn){
+                            echo "Erro de conexão";
+                        }
+
+                        $res = oci_parse($conn, $sql);
+
+                        //oci_execute($res, OCI_DEFAULT);
 
                         if(oci_num_rows($res) > 0){
                             While($dados = oci_fetch_array($res, OCI_ASSOC+OCI_RETURN_NULLS)){
