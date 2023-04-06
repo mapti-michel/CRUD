@@ -233,3 +233,119 @@ Stack trace:
 Stack trace:
 #0 {main}
   thrown in C:\wamp64\www\CRUD\index.php on line 128
+[06-Apr-2023 17:56:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function oci_connect() in C:\wamp64\www\CRUD\index.php:128
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\CRUD\index.php on line 128
+[06-Apr-2023 17:58:26 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\CRUD\index.php on line 173
+[06-Apr-2023 17:58:26 UTC] PHP Stack trace:
+[06-Apr-2023 17:58:26 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 17:58:26 UTC] PHP Notice:  Undefined variable: n in C:\wamp64\www\CRUD\index.php on line 177
+[06-Apr-2023 17:58:26 UTC] PHP Stack trace:
+[06-Apr-2023 17:58:26 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 17:58:26 UTC] PHP Notice:  Undefined variable: t in C:\wamp64\www\CRUD\index.php on line 181
+[06-Apr-2023 17:58:26 UTC] PHP Stack trace:
+[06-Apr-2023 17:58:26 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 18:10:02 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\CRUD\index.php on line 173
+[06-Apr-2023 18:10:02 UTC] PHP Stack trace:
+[06-Apr-2023 18:10:02 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 18:10:02 UTC] PHP Notice:  Undefined variable: n in C:\wamp64\www\CRUD\index.php on line 177
+[06-Apr-2023 18:10:02 UTC] PHP Stack trace:
+[06-Apr-2023 18:10:02 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 18:10:02 UTC] PHP Notice:  Undefined variable: t in C:\wamp64\www\CRUD\index.php on line 181
+[06-Apr-2023 18:10:02 UTC] PHP Stack trace:
+[06-Apr-2023 18:10:02 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 18:10:40 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\CRUD\index.php on line 172
+[06-Apr-2023 18:10:40 UTC] PHP Stack trace:
+[06-Apr-2023 18:10:40 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 18:10:40 UTC] PHP Notice:  Undefined variable: n in C:\wamp64\www\CRUD\index.php on line 176
+[06-Apr-2023 18:10:40 UTC] PHP Stack trace:
+[06-Apr-2023 18:10:40 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 18:10:40 UTC] PHP Notice:  Undefined variable: t in C:\wamp64\www\CRUD\index.php on line 180
+[06-Apr-2023 18:10:40 UTC] PHP Stack trace:
+[06-Apr-2023 18:10:40 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 18:10:43 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\CRUD\index.php on line 172
+[06-Apr-2023 18:10:43 UTC] PHP Stack trace:
+[06-Apr-2023 18:10:43 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 18:10:43 UTC] PHP Notice:  Undefined variable: n in C:\wamp64\www\CRUD\index.php on line 176
+[06-Apr-2023 18:10:43 UTC] PHP Stack trace:
+[06-Apr-2023 18:10:43 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 18:10:43 UTC] PHP Notice:  Undefined variable: t in C:\wamp64\www\CRUD\index.php on line 180
+[06-Apr-2023 18:10:43 UTC] PHP Stack trace:
+[06-Apr-2023 18:10:43 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 18:11:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function oci_parse() in C:\wamp64\www\CRUD\index.php:134
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\CRUD\index.php on line 134
+[06-Apr-2023 18:14:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PDO::oci_execute() in C:\wamp64\www\CRUD\index.php:134
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\CRUD\index.php on line 134
+[06-Apr-2023 18:16:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PDO::oci_exec() in C:\wamp64\www\CRUD\index.php:134
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\CRUD\index.php on line 134
+[06-Apr-2023 18:18:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PDO::oci_execute() in C:\wamp64\www\CRUD\index.php:134
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\CRUD\index.php on line 134
+[06-Apr-2023 18:25:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PDO::oci_num_rows() in C:\wamp64\www\CRUD\index.php:137
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\CRUD\index.php on line 137
+[06-Apr-2023 18:27:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::num_rows() in C:\wamp64\www\CRUD\index.php:138
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\CRUD\index.php on line 138
+[06-Apr-2023 18:28:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::oci_num_rows() in C:\wamp64\www\CRUD\index.php:138
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\CRUD\index.php on line 138
+[06-Apr-2023 18:28:25 UTC] PHP Notice:  Undefined index: id in C:\wamp64\www\CRUD\index.php on line 143
+[06-Apr-2023 18:28:25 UTC] PHP Stack trace:
+[06-Apr-2023 18:28:25 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 18:28:25 UTC] PHP Notice:  Undefined index: nome in C:\wamp64\www\CRUD\index.php on line 146
+[06-Apr-2023 18:28:25 UTC] PHP Stack trace:
+[06-Apr-2023 18:28:25 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 18:28:25 UTC] PHP Notice:  Undefined index: telefone in C:\wamp64\www\CRUD\index.php on line 149
+[06-Apr-2023 18:28:25 UTC] PHP Stack trace:
+[06-Apr-2023 18:28:25 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 18:28:25 UTC] PHP Notice:  Undefined index: id in C:\wamp64\www\CRUD\index.php on line 153
+[06-Apr-2023 18:28:25 UTC] PHP Stack trace:
+[06-Apr-2023 18:28:25 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 18:28:25 UTC] PHP Notice:  Undefined index: id in C:\wamp64\www\CRUD\index.php on line 154
+[06-Apr-2023 18:28:25 UTC] PHP Stack trace:
+[06-Apr-2023 18:28:25 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 18:28:25 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\CRUD\index.php on line 172
+[06-Apr-2023 18:28:25 UTC] PHP Stack trace:
+[06-Apr-2023 18:28:25 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 18:28:25 UTC] PHP Notice:  Undefined variable: n in C:\wamp64\www\CRUD\index.php on line 176
+[06-Apr-2023 18:28:25 UTC] PHP Stack trace:
+[06-Apr-2023 18:28:25 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 18:28:25 UTC] PHP Notice:  Undefined variable: t in C:\wamp64\www\CRUD\index.php on line 180
+[06-Apr-2023 18:28:25 UTC] PHP Stack trace:
+[06-Apr-2023 18:28:25 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 18:30:15 UTC] PHP Notice:  Undefined index: id in C:\wamp64\www\CRUD\index.php on line 143
+[06-Apr-2023 18:30:15 UTC] PHP Stack trace:
+[06-Apr-2023 18:30:15 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 18:30:15 UTC] PHP Notice:  Undefined index: nome in C:\wamp64\www\CRUD\index.php on line 146
+[06-Apr-2023 18:30:15 UTC] PHP Stack trace:
+[06-Apr-2023 18:30:15 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 18:30:15 UTC] PHP Notice:  Undefined index: telefone in C:\wamp64\www\CRUD\index.php on line 149
+[06-Apr-2023 18:30:15 UTC] PHP Stack trace:
+[06-Apr-2023 18:30:15 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 18:30:15 UTC] PHP Notice:  Undefined index: id in C:\wamp64\www\CRUD\index.php on line 153
+[06-Apr-2023 18:30:15 UTC] PHP Stack trace:
+[06-Apr-2023 18:30:15 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 18:30:15 UTC] PHP Notice:  Undefined index: id in C:\wamp64\www\CRUD\index.php on line 154
+[06-Apr-2023 18:30:15 UTC] PHP Stack trace:
+[06-Apr-2023 18:30:15 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 18:30:15 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\CRUD\index.php on line 172
+[06-Apr-2023 18:30:15 UTC] PHP Stack trace:
+[06-Apr-2023 18:30:15 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 18:30:15 UTC] PHP Notice:  Undefined variable: n in C:\wamp64\www\CRUD\index.php on line 176
+[06-Apr-2023 18:30:15 UTC] PHP Stack trace:
+[06-Apr-2023 18:30:15 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 18:30:15 UTC] PHP Notice:  Undefined variable: t in C:\wamp64\www\CRUD\index.php on line 180
+[06-Apr-2023 18:30:15 UTC] PHP Stack trace:
+[06-Apr-2023 18:30:15 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0

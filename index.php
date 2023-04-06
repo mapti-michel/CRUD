@@ -103,9 +103,10 @@ if($_POST){
             </thead>
             <tbody>
                 <?php
-                    $sql = "SELECT id, nome, telefone FROM tabela_nome";
 
                     try{
+                        $sql = "SELECT id, nome, telefone FROM tabela_nome";
+
                         $tns = "(DESCRIPTION=
                                     (ADDRESS_LIST = 
                                         (ADDRESS =  (PROTOCOL = TCP)
@@ -114,8 +115,7 @@ if($_POST){
                                         )
                                     )
                                     (CONNECT_DATA=
-                                        (SERVICE_NAME = dboracle)
-                                        (SID=XE)
+                                        (SERVER = DEDICATED)
                                     )
                                 )";
 
@@ -123,21 +123,20 @@ if($_POST){
                         $usuario = "system";
                         $pass = "m0d#lM";
 
-//                        $conn = new PDO("oci:dbname=".$tns,$usuario,$pass);
+                        $conn = new PDO("oci:ORCL=".$tns,$usuario,$pass);
 
-                        $conn = oci_connect($usuario, $pass, $tns);
+//                        $conn = oci_connect($usuario, $pass, $tns);
 //                        $conn = new PDO("oci:dbname=dboracle;charset=utf8", $usuario, $senha);
 
                         if(!$conn){
                             echo "Erro de conexão";
                         }
 
-                        $res = oci_parse($conn, $sql);
+                        $res = $conn->prepare($sql);
+                        $res->execute();
 
-                        //oci_execute($res, OCI_DEFAULT);
-
-                        if(oci_num_rows($res) > 0){
-                            While($dados = oci_fetch_array($res, OCI_ASSOC+OCI_RETURN_NULLS)){
+//                        if($res->oci_num_rows() > 0){
+                            While($dados = $res->fetch(PDO::FETCH_ASSOC)){
 
                                 echo "<tr>";
                                 echo "  <td>";
@@ -158,9 +157,9 @@ if($_POST){
                                 echo "</tr>";
 
                             }
-                        }else{
-                            return 0;
-                        }
+//                        }else{
+//                            return 0;
+//                        }
                     } catch (Exception $ex) {
                         echo "Conexão não estabelecida. Verifique sob o erro: ".$ex->getMessage();
                     }
