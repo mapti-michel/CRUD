@@ -106,13 +106,26 @@ if($_POST){
                     $sql = "SELECT id, nome, telefone FROM tabela_nome";
 
                     try{
-                        $tns = "(DESCRIPTION = (ADDRESS = (PROTOCOL = TCP)(HOST = localhost)(PORT = 1521)) (CONNECT_DATA = (SID = xe)))";
+                        $tns = "(DESCRIPTION=
+                                    (ADDRESS_LIST = 
+                                        (ADDRESS =  (PROTOCOL = TCP)
+                                                    (HOST = localhost)
+                                                    (PORT = 1521)
+                                        )
+                                    )
+                                    (CONNECT_DATA=
+                                        (SERVICE_NAME = dboracle)
+                                        (SID=XE)
+                                    )
+                                )";
 
-                        $database = "dboracle";
+                        //$database = "dboracle";
                         $usuario = "system";
                         $pass = "m0d#lM";
 
-                        $conn = oci_connect($usuario, $pass, "//localhost/XE");
+//                        $conn = new PDO("oci:dbname=".$tns,$usuario,$pass);
+
+                        $conn = oci_connect($usuario, $pass, $tns);
 //                        $conn = new PDO("oci:dbname=dboracle;charset=utf8", $usuario, $senha);
 
                         if(!$conn){
