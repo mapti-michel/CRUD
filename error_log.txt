@@ -181,3 +181,55 @@ Stack trace:
 Stack trace:
 #0 {main}
   thrown in C:\wamp64\www\CRUD\index.php on line 128
+[06-Apr-2023 14:10:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function oci_connect() in C:\wamp64\www\CRUD\index.php:128
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\CRUD\index.php on line 128
+[06-Apr-2023 14:33:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function oci_connect() in C:\wamp64\www\CRUD\index.php:128
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\CRUD\index.php on line 128
+[06-Apr-2023 14:35:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function oci_connect() in C:\wamp64\www\CRUD\index.php:128
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\CRUD\index.php on line 128
+[06-Apr-2023 15:00:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function oci_pconnect() in C:\wamp64\www\CRUD\index.php:128
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\CRUD\index.php on line 128
+[06-Apr-2023 15:11:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function oci_pconnect() in C:\wamp64\www\CRUD\index.php:128
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\CRUD\index.php on line 128
+[06-Apr-2023 15:12:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function oci_pconnect() in C:\wamp64\www\CRUD\index.php:128
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\CRUD\index.php on line 128
+[06-Apr-2023 15:15:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function oci_pconnect() in C:\wamp64\www\CRUD\index.php:128
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\CRUD\index.php on line 128
+[06-Apr-2023 15:17:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function oci_pconnect() in C:\wamp64\www\CRUD\index.php:128
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\CRUD\index.php on line 128
+[06-Apr-2023 15:20:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function oci_pconnect() in C:\wamp64\www\CRUD\index.php:128
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\CRUD\index.php on line 128
+[06-Apr-2023 15:22:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function oci_pconnect() in C:\wamp64\www\CRUD\index.php:128
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\CRUD\index.php on line 128
+[06-Apr-2023 16:09:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function oci_pconnect() in C:\wamp64\www\CRUD\index.php:128
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\CRUD\index.php on line 128
+[06-Apr-2023 16:15:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function oci_pconnect() in C:\wamp64\www\CRUD\index.php:128
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\CRUD\index.php on line 128
+[06-Apr-2023 16:23:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function oci_pconnect() in C:\wamp64\www\CRUD\index.php:128
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\CRUD\index.php on line 128

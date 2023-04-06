@@ -6,3 +6,4 @@ primary key(id)
 );
 
 INSERT INTO tabela_nome(id, nome, telefone) VALUES(1, 'Michel', '21 9999-9999');
+COMMIT;
