@@ -349,3 +349,606 @@ Stack trace:
 [06-Apr-2023 18:30:15 UTC] PHP Notice:  Undefined variable: t in C:\wamp64\www\CRUD\index.php on line 180
 [06-Apr-2023 18:30:15 UTC] PHP Stack trace:
 [06-Apr-2023 18:30:15 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 18:52:47 UTC] PHP Notice:  Undefined index: id in C:\wamp64\www\CRUD\index.php on line 143
+[06-Apr-2023 18:52:47 UTC] PHP Stack trace:
+[06-Apr-2023 18:52:47 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 18:52:47 UTC] PHP Notice:  Undefined index: nome in C:\wamp64\www\CRUD\index.php on line 146
+[06-Apr-2023 18:52:47 UTC] PHP Stack trace:
+[06-Apr-2023 18:52:47 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 18:52:47 UTC] PHP Notice:  Undefined index: telefone in C:\wamp64\www\CRUD\index.php on line 149
+[06-Apr-2023 18:52:47 UTC] PHP Stack trace:
+[06-Apr-2023 18:52:47 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 18:52:47 UTC] PHP Notice:  Undefined index: id in C:\wamp64\www\CRUD\index.php on line 153
+[06-Apr-2023 18:52:47 UTC] PHP Stack trace:
+[06-Apr-2023 18:52:47 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 18:52:47 UTC] PHP Notice:  Undefined index: id in C:\wamp64\www\CRUD\index.php on line 154
+[06-Apr-2023 18:52:47 UTC] PHP Stack trace:
+[06-Apr-2023 18:52:47 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 18:52:47 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\CRUD\index.php on line 172
+[06-Apr-2023 18:52:47 UTC] PHP Stack trace:
+[06-Apr-2023 18:52:47 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 18:52:47 UTC] PHP Notice:  Undefined variable: n in C:\wamp64\www\CRUD\index.php on line 176
+[06-Apr-2023 18:52:47 UTC] PHP Stack trace:
+[06-Apr-2023 18:52:47 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 18:52:47 UTC] PHP Notice:  Undefined variable: t in C:\wamp64\www\CRUD\index.php on line 180
+[06-Apr-2023 18:52:47 UTC] PHP Stack trace:
+[06-Apr-2023 18:52:47 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 18:53:18 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in C:\wamp64\www\CRUD\index.php:143
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\CRUD\index.php on line 143
+[06-Apr-2023 18:54:08 UTC] PHP Notice:  Undefined index: id in C:\wamp64\www\CRUD\index.php on line 144
+[06-Apr-2023 18:54:08 UTC] PHP Stack trace:
+[06-Apr-2023 18:54:08 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 18:54:08 UTC] PHP Notice:  Undefined index: nome in C:\wamp64\www\CRUD\index.php on line 147
+[06-Apr-2023 18:54:08 UTC] PHP Stack trace:
+[06-Apr-2023 18:54:08 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 18:54:08 UTC] PHP Notice:  Undefined index: telefone in C:\wamp64\www\CRUD\index.php on line 150
+[06-Apr-2023 18:54:08 UTC] PHP Stack trace:
+[06-Apr-2023 18:54:08 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 18:54:09 UTC] PHP Notice:  Undefined index: id in C:\wamp64\www\CRUD\index.php on line 154
+[06-Apr-2023 18:54:09 UTC] PHP Stack trace:
+[06-Apr-2023 18:54:09 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 18:54:09 UTC] PHP Notice:  Undefined index: id in C:\wamp64\www\CRUD\index.php on line 155
+[06-Apr-2023 18:54:09 UTC] PHP Stack trace:
+[06-Apr-2023 18:54:09 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 18:54:09 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\CRUD\index.php on line 173
+[06-Apr-2023 18:54:09 UTC] PHP Stack trace:
+[06-Apr-2023 18:54:09 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 18:54:09 UTC] PHP Notice:  Undefined variable: n in C:\wamp64\www\CRUD\index.php on line 177
+[06-Apr-2023 18:54:09 UTC] PHP Stack trace:
+[06-Apr-2023 18:54:09 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 18:54:09 UTC] PHP Notice:  Undefined variable: t in C:\wamp64\www\CRUD\index.php on line 181
+[06-Apr-2023 18:54:09 UTC] PHP Stack trace:
+[06-Apr-2023 18:54:09 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 18:55:27 UTC] PHP Notice:  Undefined index: id in C:\wamp64\www\CRUD\index.php on line 144
+[06-Apr-2023 18:55:27 UTC] PHP Stack trace:
+[06-Apr-2023 18:55:27 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 18:55:27 UTC] PHP Notice:  Undefined index: nome in C:\wamp64\www\CRUD\index.php on line 147
+[06-Apr-2023 18:55:27 UTC] PHP Stack trace:
+[06-Apr-2023 18:55:27 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 18:55:27 UTC] PHP Notice:  Undefined index: telefone in C:\wamp64\www\CRUD\index.php on line 150
+[06-Apr-2023 18:55:27 UTC] PHP Stack trace:
+[06-Apr-2023 18:55:27 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 18:55:27 UTC] PHP Notice:  Undefined index: id in C:\wamp64\www\CRUD\index.php on line 154
+[06-Apr-2023 18:55:27 UTC] PHP Stack trace:
+[06-Apr-2023 18:55:27 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 18:55:27 UTC] PHP Notice:  Undefined index: id in C:\wamp64\www\CRUD\index.php on line 155
+[06-Apr-2023 18:55:27 UTC] PHP Stack trace:
+[06-Apr-2023 18:55:27 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 18:55:27 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\CRUD\index.php on line 173
+[06-Apr-2023 18:55:27 UTC] PHP Stack trace:
+[06-Apr-2023 18:55:27 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 18:55:27 UTC] PHP Notice:  Undefined variable: n in C:\wamp64\www\CRUD\index.php on line 177
+[06-Apr-2023 18:55:27 UTC] PHP Stack trace:
+[06-Apr-2023 18:55:27 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 18:55:27 UTC] PHP Notice:  Undefined variable: t in C:\wamp64\www\CRUD\index.php on line 181
+[06-Apr-2023 18:55:27 UTC] PHP Stack trace:
+[06-Apr-2023 18:55:27 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 18:58:53 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\wamp64\www\CRUD\index.php on line 140
+[06-Apr-2023 18:58:53 UTC] PHP Stack trace:
+[06-Apr-2023 18:58:53 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 18:58:53 UTC] PHP Notice:  Undefined index: id in C:\wamp64\www\CRUD\index.php on line 145
+[06-Apr-2023 18:58:53 UTC] PHP Stack trace:
+[06-Apr-2023 18:58:53 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 18:58:53 UTC] PHP Notice:  Undefined index: nome in C:\wamp64\www\CRUD\index.php on line 148
+[06-Apr-2023 18:58:53 UTC] PHP Stack trace:
+[06-Apr-2023 18:58:53 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 18:58:53 UTC] PHP Notice:  Undefined index: telefone in C:\wamp64\www\CRUD\index.php on line 151
+[06-Apr-2023 18:58:53 UTC] PHP Stack trace:
+[06-Apr-2023 18:58:53 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 18:58:53 UTC] PHP Notice:  Undefined index: id in C:\wamp64\www\CRUD\index.php on line 155
+[06-Apr-2023 18:58:53 UTC] PHP Stack trace:
+[06-Apr-2023 18:58:53 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 18:58:53 UTC] PHP Notice:  Undefined index: id in C:\wamp64\www\CRUD\index.php on line 156
+[06-Apr-2023 18:58:53 UTC] PHP Stack trace:
+[06-Apr-2023 18:58:53 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 18:58:53 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\CRUD\index.php on line 174
+[06-Apr-2023 18:58:53 UTC] PHP Stack trace:
+[06-Apr-2023 18:58:53 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 18:58:53 UTC] PHP Notice:  Undefined variable: n in C:\wamp64\www\CRUD\index.php on line 178
+[06-Apr-2023 18:58:53 UTC] PHP Stack trace:
+[06-Apr-2023 18:58:53 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 18:58:53 UTC] PHP Notice:  Undefined variable: t in C:\wamp64\www\CRUD\index.php on line 182
+[06-Apr-2023 18:58:53 UTC] PHP Stack trace:
+[06-Apr-2023 18:58:53 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 19:01:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::fetch_array() in C:\wamp64\www\CRUD\index.php:143
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\CRUD\index.php on line 143
+[06-Apr-2023 19:02:32 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\CRUD\index.php on line 136
+[06-Apr-2023 19:02:32 UTC] PHP Stack trace:
+[06-Apr-2023 19:02:32 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 19:04:23 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\CRUD\index.php on line 176
+[06-Apr-2023 19:04:23 UTC] PHP Stack trace:
+[06-Apr-2023 19:04:23 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 19:04:23 UTC] PHP Notice:  Undefined variable: n in C:\wamp64\www\CRUD\index.php on line 180
+[06-Apr-2023 19:04:23 UTC] PHP Stack trace:
+[06-Apr-2023 19:04:23 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 19:04:23 UTC] PHP Notice:  Undefined variable: t in C:\wamp64\www\CRUD\index.php on line 184
+[06-Apr-2023 19:04:23 UTC] PHP Stack trace:
+[06-Apr-2023 19:04:23 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 19:07:37 UTC] PHP Notice:  Array to string conversion in C:\wamp64\www\CRUD\index.php on line 151
+[06-Apr-2023 19:07:37 UTC] PHP Stack trace:
+[06-Apr-2023 19:07:37 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 19:07:37 UTC] PHP Notice:  Array to string conversion in C:\wamp64\www\CRUD\index.php on line 154
+[06-Apr-2023 19:07:37 UTC] PHP Stack trace:
+[06-Apr-2023 19:07:37 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 19:07:37 UTC] PHP Notice:  Array to string conversion in C:\wamp64\www\CRUD\index.php on line 157
+[06-Apr-2023 19:07:37 UTC] PHP Stack trace:
+[06-Apr-2023 19:07:37 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 19:07:37 UTC] PHP Notice:  Undefined index: id in C:\wamp64\www\CRUD\index.php on line 161
+[06-Apr-2023 19:07:37 UTC] PHP Stack trace:
+[06-Apr-2023 19:07:37 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 19:07:37 UTC] PHP Notice:  Undefined index: id in C:\wamp64\www\CRUD\index.php on line 162
+[06-Apr-2023 19:07:37 UTC] PHP Stack trace:
+[06-Apr-2023 19:07:37 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 19:07:37 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\CRUD\index.php on line 180
+[06-Apr-2023 19:07:37 UTC] PHP Stack trace:
+[06-Apr-2023 19:07:37 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 19:07:37 UTC] PHP Notice:  Undefined variable: n in C:\wamp64\www\CRUD\index.php on line 184
+[06-Apr-2023 19:07:37 UTC] PHP Stack trace:
+[06-Apr-2023 19:07:37 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 19:07:37 UTC] PHP Notice:  Undefined variable: t in C:\wamp64\www\CRUD\index.php on line 188
+[06-Apr-2023 19:07:37 UTC] PHP Stack trace:
+[06-Apr-2023 19:07:37 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 19:12:05 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\CRUD\index.php on line 177
+[06-Apr-2023 19:12:05 UTC] PHP Stack trace:
+[06-Apr-2023 19:12:05 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 19:12:05 UTC] PHP Notice:  Undefined variable: n in C:\wamp64\www\CRUD\index.php on line 181
+[06-Apr-2023 19:12:05 UTC] PHP Stack trace:
+[06-Apr-2023 19:12:05 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 19:12:05 UTC] PHP Notice:  Undefined variable: t in C:\wamp64\www\CRUD\index.php on line 185
+[06-Apr-2023 19:12:05 UTC] PHP Stack trace:
+[06-Apr-2023 19:12:05 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 20:01:43 UTC] PHP Notice:  Undefined variable: t in C:\wamp64\www\CRUD\index.php on line 32
+[06-Apr-2023 20:01:43 UTC] PHP Stack trace:
+[06-Apr-2023 20:01:43 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 20:33:08 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\CRUD\index.php on line 171
+[06-Apr-2023 20:33:08 UTC] PHP Stack trace:
+[06-Apr-2023 20:33:08 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 20:33:08 UTC] PHP Notice:  Undefined variable: n in C:\wamp64\www\CRUD\index.php on line 175
+[06-Apr-2023 20:33:08 UTC] PHP Stack trace:
+[06-Apr-2023 20:33:08 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 20:33:08 UTC] PHP Notice:  Undefined variable: t in C:\wamp64\www\CRUD\index.php on line 179
+[06-Apr-2023 20:33:08 UTC] PHP Stack trace:
+[06-Apr-2023 20:33:08 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 20:52:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function conectaBancoOrcl() in C:\wamp64\www\CRUD\index.php:126
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\CRUD\index.php on line 126
+[06-Apr-2023 20:52:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function conectaBancoOrcl() in C:\wamp64\www\CRUD\index.php:126
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\CRUD\index.php on line 126
+[06-Apr-2023 20:54:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method conn::conectaBancoOrcl() in C:\wamp64\www\CRUD\index.php:109
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\CRUD\index.php on line 109
+[06-Apr-2023 20:54:12 UTC] PHP Notice:  Undefined index: host in C:\wamp64\www\CRUD\conn.class.php on line 47
+[06-Apr-2023 20:54:12 UTC] PHP Stack trace:
+[06-Apr-2023 20:54:12 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 20:54:12 UTC] PHP   2. conn->conectaBanco() C:\wamp64\www\CRUD\index.php:109
+[06-Apr-2023 20:54:12 UTC] PHP Notice:  Undefined variable: tns in C:\wamp64\www\CRUD\conn.class.php on line 70
+[06-Apr-2023 20:54:12 UTC] PHP Stack trace:
+[06-Apr-2023 20:54:12 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 20:54:12 UTC] PHP   2. conn->conectaBanco() C:\wamp64\www\CRUD\index.php:109
+[06-Apr-2023 20:54:12 UTC] PHP Notice:  Undefined variable: usuario in C:\wamp64\www\CRUD\conn.class.php on line 70
+[06-Apr-2023 20:54:12 UTC] PHP Stack trace:
+[06-Apr-2023 20:54:12 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 20:54:12 UTC] PHP   2. conn->conectaBanco() C:\wamp64\www\CRUD\index.php:109
+[06-Apr-2023 20:54:12 UTC] PHP Notice:  Undefined variable: pass in C:\wamp64\www\CRUD\conn.class.php on line 70
+[06-Apr-2023 20:54:12 UTC] PHP Stack trace:
+[06-Apr-2023 20:54:12 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 20:54:12 UTC] PHP   2. conn->conectaBanco() C:\wamp64\www\CRUD\index.php:109
+[06-Apr-2023 20:54:12 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\wamp64\www\CRUD\index.php:112
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\CRUD\index.php on line 112
+[06-Apr-2023 20:54:50 UTC] PHP Notice:  Undefined variable: tns in C:\wamp64\www\CRUD\conn.class.php on line 70
+[06-Apr-2023 20:54:50 UTC] PHP Stack trace:
+[06-Apr-2023 20:54:50 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 20:54:50 UTC] PHP   2. conn->conectaBanco() C:\wamp64\www\CRUD\index.php:109
+[06-Apr-2023 20:54:50 UTC] PHP Notice:  Undefined variable: usuario in C:\wamp64\www\CRUD\conn.class.php on line 70
+[06-Apr-2023 20:54:50 UTC] PHP Stack trace:
+[06-Apr-2023 20:54:50 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 20:54:50 UTC] PHP   2. conn->conectaBanco() C:\wamp64\www\CRUD\index.php:109
+[06-Apr-2023 20:54:50 UTC] PHP Notice:  Undefined variable: pass in C:\wamp64\www\CRUD\conn.class.php on line 70
+[06-Apr-2023 20:54:50 UTC] PHP Stack trace:
+[06-Apr-2023 20:54:50 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 20:54:50 UTC] PHP   2. conn->conectaBanco() C:\wamp64\www\CRUD\index.php:109
+[06-Apr-2023 20:54:50 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\wamp64\www\CRUD\index.php:112
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\CRUD\index.php on line 112
+[06-Apr-2023 20:55:45 UTC] PHP Notice:  Undefined variable: conecta in C:\wamp64\www\CRUD\conn.class.php on line 73
+[06-Apr-2023 20:55:45 UTC] PHP Stack trace:
+[06-Apr-2023 20:55:45 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 20:55:45 UTC] PHP   2. conn->conectaBanco() C:\wamp64\www\CRUD\index.php:109
+[06-Apr-2023 20:55:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function oci_error() in C:\wamp64\www\CRUD\conn.class.php:74
+Stack trace:
+#0 C:\wamp64\www\CRUD\index.php(109): conn->conectaBanco()
+#1 {main}
+  thrown in C:\wamp64\www\CRUD\conn.class.php on line 74
+[06-Apr-2023 20:56:11 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\CRUD\index.php on line 152
+[06-Apr-2023 20:56:11 UTC] PHP Stack trace:
+[06-Apr-2023 20:56:11 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 20:56:11 UTC] PHP Notice:  Undefined variable: n in C:\wamp64\www\CRUD\index.php on line 156
+[06-Apr-2023 20:56:11 UTC] PHP Stack trace:
+[06-Apr-2023 20:56:11 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 20:56:11 UTC] PHP Notice:  Undefined variable: t in C:\wamp64\www\CRUD\index.php on line 160
+[06-Apr-2023 20:56:11 UTC] PHP Stack trace:
+[06-Apr-2023 20:56:11 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 20:56:47 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\CRUD\index.php on line 152
+[06-Apr-2023 20:56:47 UTC] PHP Stack trace:
+[06-Apr-2023 20:56:47 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 20:56:47 UTC] PHP Notice:  Undefined variable: n in C:\wamp64\www\CRUD\index.php on line 156
+[06-Apr-2023 20:56:47 UTC] PHP Stack trace:
+[06-Apr-2023 20:56:47 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[06-Apr-2023 20:56:47 UTC] PHP Notice:  Undefined variable: t in C:\wamp64\www\CRUD\index.php on line 160
+[06-Apr-2023 20:56:47 UTC] PHP Stack trace:
+[06-Apr-2023 20:56:47 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[10-Apr-2023 01:33:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in C:\wamp64\www\CRUD\conn.class.php:91
+Stack trace:
+#0 C:\wamp64\www\CRUD\crud.class.php(97): conn->conectaBanco()
+#1 C:\wamp64\www\CRUD\index.php(165): crud->lista()
+#2 {main}
+  thrown in C:\wamp64\www\CRUD\conn.class.php on line 91
+[10-Apr-2023 01:34:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in C:\wamp64\www\CRUD\conn.class.php:91
+Stack trace:
+#0 C:\wamp64\www\CRUD\crud.class.php(97): conn->conectaBanco()
+#1 C:\wamp64\www\CRUD\index.php(165): crud->lista()
+#2 {main}
+  thrown in C:\wamp64\www\CRUD\conn.class.php on line 91
+[10-Apr-2023 01:36:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in C:\wamp64\www\CRUD\conn.class.php:91
+Stack trace:
+#0 C:\wamp64\www\CRUD\crud.class.php(97): conn->conectaBanco()
+#1 C:\wamp64\www\CRUD\index.php(165): crud->lista()
+#2 {main}
+  thrown in C:\wamp64\www\CRUD\conn.class.php on line 91
+[10-Apr-2023 01:38:14 UTC] PHP Warning:  require_once(mensagens.class.php): failed to open stream: No such file or directory in C:\wamp64\www\CRUD\crud.class.php on line 94
+[10-Apr-2023 01:38:14 UTC] PHP Stack trace:
+[10-Apr-2023 01:38:14 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[10-Apr-2023 01:38:14 UTC] PHP   2. crud->lista() C:\wamp64\www\CRUD\index.php:165
+[10-Apr-2023 01:38:14 UTC] PHP Fatal error:  require_once(): Failed opening required 'mensagens.class.php' (include_path='.;C:\php\pear') in C:\wamp64\www\CRUD\crud.class.php on line 94
+[10-Apr-2023 01:38:14 UTC] PHP Stack trace:
+[10-Apr-2023 01:38:14 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[10-Apr-2023 01:38:14 UTC] PHP   2. crud->lista() C:\wamp64\www\CRUD\index.php:165
+[10-Apr-2023 01:40:53 UTC] PHP Warning:  require_once(mensagens.class.php): failed to open stream: No such file or directory in C:\wamp64\www\CRUD\crud.class.php on line 94
+[10-Apr-2023 01:40:53 UTC] PHP Stack trace:
+[10-Apr-2023 01:40:53 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[10-Apr-2023 01:40:53 UTC] PHP   2. crud->lista() C:\wamp64\www\CRUD\index.php:165
+[10-Apr-2023 01:40:53 UTC] PHP Fatal error:  require_once(): Failed opening required 'mensagens.class.php' (include_path='.;C:\php\pear') in C:\wamp64\www\CRUD\crud.class.php on line 94
+[10-Apr-2023 01:40:53 UTC] PHP Stack trace:
+[10-Apr-2023 01:40:53 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[10-Apr-2023 01:40:53 UTC] PHP   2. crud->lista() C:\wamp64\www\CRUD\index.php:165
+[10-Apr-2023 01:43:02 UTC] PHP Warning:  require_once(mensagens.class.php): failed to open stream: No such file or directory in C:\wamp64\www\CRUD\crud.class.php on line 94
+[10-Apr-2023 01:43:02 UTC] PHP Stack trace:
+[10-Apr-2023 01:43:02 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[10-Apr-2023 01:43:02 UTC] PHP   2. crud->lista() C:\wamp64\www\CRUD\index.php:165
+[10-Apr-2023 01:43:02 UTC] PHP Fatal error:  require_once(): Failed opening required 'mensagens.class.php' (include_path='.;C:\php\pear') in C:\wamp64\www\CRUD\crud.class.php on line 94
+[10-Apr-2023 01:43:02 UTC] PHP Stack trace:
+[10-Apr-2023 01:43:02 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[10-Apr-2023 01:43:02 UTC] PHP   2. crud->lista() C:\wamp64\www\CRUD\index.php:165
+[10-Apr-2023 01:43:43 UTC] PHP Warning:  require_once(mensagens.class.php): failed to open stream: No such file or directory in C:\wamp64\www\CRUD\crud.class.php on line 94
+[10-Apr-2023 01:43:43 UTC] PHP Stack trace:
+[10-Apr-2023 01:43:43 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[10-Apr-2023 01:43:43 UTC] PHP   2. crud->lista() C:\wamp64\www\CRUD\index.php:165
+[10-Apr-2023 01:43:43 UTC] PHP Fatal error:  require_once(): Failed opening required 'mensagens.class.php' (include_path='.;C:\php\pear') in C:\wamp64\www\CRUD\crud.class.php on line 94
+[10-Apr-2023 01:43:43 UTC] PHP Stack trace:
+[10-Apr-2023 01:43:43 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[10-Apr-2023 01:43:43 UTC] PHP   2. crud->lista() C:\wamp64\www\CRUD\index.php:165
+[10-Apr-2023 01:43:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in C:\wamp64\www\CRUD\conn.class.php:91
+Stack trace:
+#0 C:\wamp64\www\CRUD\crud.class.php(96): conn->conectaBanco()
+#1 C:\wamp64\www\CRUD\index.php(165): crud->lista()
+#2 {main}
+  thrown in C:\wamp64\www\CRUD\conn.class.php on line 91
+[10-Apr-2023 01:47:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in C:\wamp64\www\CRUD\conn.class.php:91
+Stack trace:
+#0 C:\wamp64\www\CRUD\crud.class.php(96): conn->conectaBanco()
+#1 C:\wamp64\www\CRUD\index.php(166): crud->lista()
+#2 {main}
+  thrown in C:\wamp64\www\CRUD\conn.class.php on line 91
+[10-Apr-2023 02:05:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in C:\wamp64\www\CRUD\conn.class.php:89
+Stack trace:
+#0 C:\wamp64\www\CRUD\crud.class.php(96): conn->conectaBanco()
+#1 C:\wamp64\www\CRUD\index.php(165): crud->lista()
+#2 {main}
+  thrown in C:\wamp64\www\CRUD\conn.class.php on line 89
+[10-Apr-2023 02:06:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in C:\wamp64\www\CRUD\conn.class.php:90
+Stack trace:
+#0 C:\wamp64\www\CRUD\crud.class.php(96): conn->conectaBanco()
+#1 C:\wamp64\www\CRUD\index.php(165): crud->lista()
+#2 {main}
+  thrown in C:\wamp64\www\CRUD\conn.class.php on line 90
+[10-Apr-2023 02:08:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in C:\wamp64\www\CRUD\conn.class.php:92
+Stack trace:
+#0 C:\wamp64\www\CRUD\crud.class.php(96): conn->conectaBanco()
+#1 C:\wamp64\www\CRUD\index.php(165): crud->lista()
+#2 {main}
+  thrown in C:\wamp64\www\CRUD\conn.class.php on line 92
+[10-Apr-2023 02:08:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_select_db() in C:\wamp64\www\CRUD\conn.class.php:94
+Stack trace:
+#0 C:\wamp64\www\CRUD\crud.class.php(96): conn->conectaBanco()
+#1 C:\wamp64\www\CRUD\index.php(165): crud->lista()
+#2 {main}
+  thrown in C:\wamp64\www\CRUD\conn.class.php on line 94
+[10-Apr-2023 02:09:02 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, string given in C:\wamp64\www\CRUD\conn.class.php on line 94
+[10-Apr-2023 02:09:02 UTC] PHP Stack trace:
+[10-Apr-2023 02:09:02 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[10-Apr-2023 02:09:02 UTC] PHP   2. crud->lista() C:\wamp64\www\CRUD\index.php:165
+[10-Apr-2023 02:09:02 UTC] PHP   3. conn->conectaBanco() C:\wamp64\www\CRUD\crud.class.php:96
+[10-Apr-2023 02:09:02 UTC] PHP   4. mysqli_select_db() C:\wamp64\www\CRUD\conn.class.php:94
+[10-Apr-2023 02:09:02 UTC] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, string given in C:\wamp64\www\CRUD\conn.class.php on line 95
+[10-Apr-2023 02:09:02 UTC] PHP Stack trace:
+[10-Apr-2023 02:09:02 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[10-Apr-2023 02:09:02 UTC] PHP   2. crud->lista() C:\wamp64\www\CRUD\index.php:165
+[10-Apr-2023 02:09:02 UTC] PHP   3. conn->conectaBanco() C:\wamp64\www\CRUD\crud.class.php:96
+[10-Apr-2023 02:09:02 UTC] PHP   4. mysqli_set_charset() C:\wamp64\www\CRUD\conn.class.php:95
+[10-Apr-2023 02:09:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in C:\wamp64\www\CRUD\crud.class.php:100
+Stack trace:
+#0 C:\wamp64\www\CRUD\index.php(165): crud->lista()
+#1 {main}
+  thrown in C:\wamp64\www\CRUD\crud.class.php on line 100
+[10-Apr-2023 02:11:01 UTC] PHP Fatal error:  Uncaught Error: Non-static method mysqli::select_db() cannot be called statically in C:\wamp64\www\CRUD\conn.class.php:94
+Stack trace:
+#0 C:\wamp64\www\CRUD\crud.class.php(96): conn->conectaBanco()
+#1 C:\wamp64\www\CRUD\index.php(165): crud->lista()
+#2 {main}
+  thrown in C:\wamp64\www\CRUD\conn.class.php on line 94
+[10-Apr-2023 02:11:25 UTC] PHP Fatal error:  Uncaught Error: Non-static method mysqli::select_db() cannot be called statically in C:\wamp64\www\CRUD\conn.class.php:94
+Stack trace:
+#0 C:\wamp64\www\CRUD\crud.class.php(96): conn->conectaBanco()
+#1 C:\wamp64\www\CRUD\index.php(165): crud->lista()
+#2 {main}
+  thrown in C:\wamp64\www\CRUD\conn.class.php on line 94
+[10-Apr-2023 02:13:37 UTC] PHP Fatal error:  Uncaught Error: Non-static method mysqli::set_charset() cannot be called statically in C:\wamp64\www\CRUD\conn.class.php:94
+Stack trace:
+#0 C:\wamp64\www\CRUD\crud.class.php(96): conn->conectaBanco()
+#1 C:\wamp64\www\CRUD\index.php(165): crud->lista()
+#2 {main}
+  thrown in C:\wamp64\www\CRUD\conn.class.php on line 94
+[10-Apr-2023 02:13:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in C:\wamp64\www\CRUD\crud.class.php:100
+Stack trace:
+#0 C:\wamp64\www\CRUD\index.php(165): crud->lista()
+#1 {main}
+  thrown in C:\wamp64\www\CRUD\crud.class.php on line 100
+[10-Apr-2023 02:14:33 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in C:\wamp64\www\CRUD\crud.class.php on line 100
+[10-Apr-2023 02:14:33 UTC] PHP Stack trace:
+[10-Apr-2023 02:14:33 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[10-Apr-2023 02:14:33 UTC] PHP   2. crud->lista() C:\wamp64\www\CRUD\index.php:165
+[10-Apr-2023 02:14:33 UTC] PHP   3. mysqli_query() C:\wamp64\www\CRUD\crud.class.php:100
+[10-Apr-2023 02:14:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in C:\wamp64\www\CRUD\crud.class.php:100
+Stack trace:
+#0 C:\wamp64\www\CRUD\index.php(165): crud->lista()
+#1 {main}
+  thrown in C:\wamp64\www\CRUD\crud.class.php on line 100
+[10-Apr-2023 02:20:35 UTC] PHP Warning:  mysqli_set_charset() expects exactly 2 parameters, 1 given in C:\wamp64\www\CRUD\conn.class.php on line 93
+[10-Apr-2023 02:20:35 UTC] PHP Stack trace:
+[10-Apr-2023 02:20:35 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[10-Apr-2023 02:20:35 UTC] PHP   2. crud->lista() C:\wamp64\www\CRUD\index.php:165
+[10-Apr-2023 02:20:35 UTC] PHP   3. conn->conectaBanco() C:\wamp64\www\CRUD\crud.class.php:96
+[10-Apr-2023 02:20:35 UTC] PHP   4. mysqli_set_charset() C:\wamp64\www\CRUD\conn.class.php:93
+[10-Apr-2023 02:20:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method conn::query() in C:\wamp64\www\CRUD\crud.class.php:100
+Stack trace:
+#0 C:\wamp64\www\CRUD\index.php(165): crud->lista()
+#1 {main}
+  thrown in C:\wamp64\www\CRUD\crud.class.php on line 100
+[10-Apr-2023 02:20:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method conn::query() in C:\wamp64\www\CRUD\crud.class.php:100
+Stack trace:
+#0 C:\wamp64\www\CRUD\index.php(165): crud->lista()
+#1 {main}
+  thrown in C:\wamp64\www\CRUD\crud.class.php on line 100
+[10-Apr-2023 02:23:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method conn::query() in C:\wamp64\www\CRUD\crud.class.php:100
+Stack trace:
+#0 C:\wamp64\www\CRUD\index.php(165): crud->lista()
+#1 {main}
+  thrown in C:\wamp64\www\CRUD\crud.class.php on line 100
+[10-Apr-2023 02:31:44 UTC] PHP Fatal error:  Uncaught Error: Non-static method mysqli::query() cannot be called statically in C:\wamp64\www\CRUD\crud.class.php:100
+Stack trace:
+#0 C:\wamp64\www\CRUD\index.php(165): crud->lista()
+#1 {main}
+  thrown in C:\wamp64\www\CRUD\crud.class.php on line 100
+[10-Apr-2023 02:32:01 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in C:\wamp64\www\CRUD\crud.class.php on line 100
+[10-Apr-2023 02:32:01 UTC] PHP Stack trace:
+[10-Apr-2023 02:32:01 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[10-Apr-2023 02:32:01 UTC] PHP   2. crud->lista() C:\wamp64\www\CRUD\index.php:165
+[10-Apr-2023 02:32:01 UTC] PHP   3. mysqli_query() C:\wamp64\www\CRUD\crud.class.php:100
+[10-Apr-2023 02:32:01 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in C:\wamp64\www\CRUD\crud.class.php on line 102
+[10-Apr-2023 02:32:01 UTC] PHP Stack trace:
+[10-Apr-2023 02:32:01 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[10-Apr-2023 02:32:01 UTC] PHP   2. crud->lista() C:\wamp64\www\CRUD\index.php:165
+[10-Apr-2023 02:32:01 UTC] PHP   3. mysqli_num_rows() C:\wamp64\www\CRUD\crud.class.php:102
+[10-Apr-2023 02:32:01 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\CRUD\index.php on line 184
+[10-Apr-2023 02:32:01 UTC] PHP Stack trace:
+[10-Apr-2023 02:32:01 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[10-Apr-2023 02:32:01 UTC] PHP Notice:  Undefined variable: n in C:\wamp64\www\CRUD\index.php on line 188
+[10-Apr-2023 02:32:01 UTC] PHP Stack trace:
+[10-Apr-2023 02:32:01 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[10-Apr-2023 02:32:01 UTC] PHP Notice:  Undefined variable: t in C:\wamp64\www\CRUD\index.php on line 192
+[10-Apr-2023 02:32:01 UTC] PHP Stack trace:
+[10-Apr-2023 02:32:01 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[10-Apr-2023 02:33:02 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in C:\wamp64\www\CRUD\crud.class.php on line 100
+[10-Apr-2023 02:33:02 UTC] PHP Stack trace:
+[10-Apr-2023 02:33:02 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[10-Apr-2023 02:33:02 UTC] PHP   2. crud->lista() C:\wamp64\www\CRUD\index.php:165
+[10-Apr-2023 02:33:02 UTC] PHP   3. mysqli_query() C:\wamp64\www\CRUD\crud.class.php:100
+[10-Apr-2023 02:33:02 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in C:\wamp64\www\CRUD\crud.class.php on line 100
+[10-Apr-2023 02:33:02 UTC] PHP Stack trace:
+[10-Apr-2023 02:33:02 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[10-Apr-2023 02:33:02 UTC] PHP   2. crud->lista() C:\wamp64\www\CRUD\index.php:165
+[10-Apr-2023 02:33:02 UTC] PHP   3. mysqli_error() C:\wamp64\www\CRUD\crud.class.php:100
+[10-Apr-2023 02:33:45 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in C:\wamp64\www\CRUD\crud.class.php on line 100
+[10-Apr-2023 02:33:45 UTC] PHP Stack trace:
+[10-Apr-2023 02:33:45 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[10-Apr-2023 02:33:45 UTC] PHP   2. crud->lista() C:\wamp64\www\CRUD\index.php:165
+[10-Apr-2023 02:33:45 UTC] PHP   3. mysqli_query() C:\wamp64\www\CRUD\crud.class.php:100
+[10-Apr-2023 02:33:45 UTC] PHP Warning:  Use of undefined constant mysqli_error - assumed 'mysqli_error' (this will throw an Error in a future version of PHP) in C:\wamp64\www\CRUD\crud.class.php on line 100
+[10-Apr-2023 02:33:45 UTC] PHP Stack trace:
+[10-Apr-2023 02:33:45 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[10-Apr-2023 02:33:45 UTC] PHP   2. crud->lista() C:\wamp64\www\CRUD\index.php:165
+[10-Apr-2023 02:34:05 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in C:\wamp64\www\CRUD\crud.class.php on line 100
+[10-Apr-2023 02:34:05 UTC] PHP Stack trace:
+[10-Apr-2023 02:34:05 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[10-Apr-2023 02:34:05 UTC] PHP   2. crud->lista() C:\wamp64\www\CRUD\index.php:165
+[10-Apr-2023 02:34:05 UTC] PHP   3. mysqli_query() C:\wamp64\www\CRUD\crud.class.php:100
+[10-Apr-2023 02:34:05 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in C:\wamp64\www\CRUD\crud.class.php on line 100
+[10-Apr-2023 02:34:05 UTC] PHP Stack trace:
+[10-Apr-2023 02:34:05 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[10-Apr-2023 02:34:05 UTC] PHP   2. crud->lista() C:\wamp64\www\CRUD\index.php:165
+[10-Apr-2023 02:34:05 UTC] PHP   3. mysqli_error() C:\wamp64\www\CRUD\crud.class.php:100
+[10-Apr-2023 02:34:31 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in C:\wamp64\www\CRUD\crud.class.php on line 100
+[10-Apr-2023 02:34:31 UTC] PHP Stack trace:
+[10-Apr-2023 02:34:31 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[10-Apr-2023 02:34:31 UTC] PHP   2. crud->lista() C:\wamp64\www\CRUD\index.php:165
+[10-Apr-2023 02:34:31 UTC] PHP   3. mysqli_query() C:\wamp64\www\CRUD\crud.class.php:100
+[10-Apr-2023 02:36:20 UTC] PHP Notice:  Undefined index: database in C:\wamp64\www\CRUD\conn.class.php on line 84
+[10-Apr-2023 02:36:20 UTC] PHP Stack trace:
+[10-Apr-2023 02:36:20 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[10-Apr-2023 02:36:20 UTC] PHP   2. crud->lista() C:\wamp64\www\CRUD\index.php:165
+[10-Apr-2023 02:36:20 UTC] PHP   3. conn->conectaBanco() C:\wamp64\www\CRUD\crud.class.php:96
+[10-Apr-2023 02:36:20 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in C:\wamp64\www\CRUD\crud.class.php on line 100
+[10-Apr-2023 02:36:20 UTC] PHP Stack trace:
+[10-Apr-2023 02:36:20 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[10-Apr-2023 02:36:20 UTC] PHP   2. crud->lista() C:\wamp64\www\CRUD\index.php:165
+[10-Apr-2023 02:36:20 UTC] PHP   3. mysqli_query() C:\wamp64\www\CRUD\crud.class.php:100
+[10-Apr-2023 02:36:54 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in C:\wamp64\www\CRUD\crud.class.php on line 100
+[10-Apr-2023 02:36:54 UTC] PHP Stack trace:
+[10-Apr-2023 02:36:54 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[10-Apr-2023 02:36:54 UTC] PHP   2. crud->lista() C:\wamp64\www\CRUD\index.php:165
+[10-Apr-2023 02:36:54 UTC] PHP   3. mysqli_query() C:\wamp64\www\CRUD\crud.class.php:100
+[10-Apr-2023 02:38:12 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, string given in C:\wamp64\www\CRUD\crud.class.php on line 100
+[10-Apr-2023 02:38:12 UTC] PHP Stack trace:
+[10-Apr-2023 02:38:12 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[10-Apr-2023 02:38:12 UTC] PHP   2. crud->lista() C:\wamp64\www\CRUD\index.php:165
+[10-Apr-2023 02:38:12 UTC] PHP   3. mysqli_query() C:\wamp64\www\CRUD\crud.class.php:100
+[10-Apr-2023 02:38:57 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in C:\wamp64\www\CRUD\crud.class.php on line 100
+[10-Apr-2023 02:38:57 UTC] PHP Stack trace:
+[10-Apr-2023 02:38:57 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[10-Apr-2023 02:38:57 UTC] PHP   2. crud->lista() C:\wamp64\www\CRUD\index.php:165
+[10-Apr-2023 02:38:57 UTC] PHP   3. mysqli_query() C:\wamp64\www\CRUD\crud.class.php:100
+[10-Apr-2023 02:38:57 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in C:\wamp64\www\CRUD\crud.class.php on line 102
+[10-Apr-2023 02:38:57 UTC] PHP Stack trace:
+[10-Apr-2023 02:38:57 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[10-Apr-2023 02:38:57 UTC] PHP   2. crud->lista() C:\wamp64\www\CRUD\index.php:165
+[10-Apr-2023 02:38:57 UTC] PHP   3. mysqli_num_rows() C:\wamp64\www\CRUD\crud.class.php:102
+[10-Apr-2023 02:38:57 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\CRUD\index.php on line 184
+[10-Apr-2023 02:38:57 UTC] PHP Stack trace:
+[10-Apr-2023 02:38:57 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[10-Apr-2023 02:38:57 UTC] PHP Notice:  Undefined variable: n in C:\wamp64\www\CRUD\index.php on line 188
+[10-Apr-2023 02:38:57 UTC] PHP Stack trace:
+[10-Apr-2023 02:38:57 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[10-Apr-2023 02:38:57 UTC] PHP Notice:  Undefined variable: t in C:\wamp64\www\CRUD\index.php on line 192
+[10-Apr-2023 02:38:57 UTC] PHP Stack trace:
+[10-Apr-2023 02:38:57 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[10-Apr-2023 02:42:13 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in C:\wamp64\www\CRUD\crud.class.php on line 100
+[10-Apr-2023 02:42:13 UTC] PHP Stack trace:
+[10-Apr-2023 02:42:13 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[10-Apr-2023 02:42:13 UTC] PHP   2. crud->lista() C:\wamp64\www\CRUD\index.php:165
+[10-Apr-2023 02:42:13 UTC] PHP   3. mysqli_query() C:\wamp64\www\CRUD\crud.class.php:100
+[10-Apr-2023 02:42:13 UTC] PHP Warning:  mysqli_affected_rows() expects parameter 1 to be mysqli, null given in C:\wamp64\www\CRUD\crud.class.php on line 102
+[10-Apr-2023 02:42:13 UTC] PHP Stack trace:
+[10-Apr-2023 02:42:13 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[10-Apr-2023 02:42:13 UTC] PHP   2. crud->lista() C:\wamp64\www\CRUD\index.php:165
+[10-Apr-2023 02:42:13 UTC] PHP   3. mysqli_affected_rows() C:\wamp64\www\CRUD\crud.class.php:102
+[10-Apr-2023 02:42:13 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\CRUD\index.php on line 184
+[10-Apr-2023 02:42:13 UTC] PHP Stack trace:
+[10-Apr-2023 02:42:13 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[10-Apr-2023 02:42:13 UTC] PHP Notice:  Undefined variable: n in C:\wamp64\www\CRUD\index.php on line 188
+[10-Apr-2023 02:42:13 UTC] PHP Stack trace:
+[10-Apr-2023 02:42:13 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[10-Apr-2023 02:42:13 UTC] PHP Notice:  Undefined variable: t in C:\wamp64\www\CRUD\index.php on line 192
+[10-Apr-2023 02:42:13 UTC] PHP Stack trace:
+[10-Apr-2023 02:42:13 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[10-Apr-2023 02:43:49 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, string given in C:\wamp64\www\CRUD\crud.class.php on line 100
+[10-Apr-2023 02:43:49 UTC] PHP Stack trace:
+[10-Apr-2023 02:43:49 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[10-Apr-2023 02:43:49 UTC] PHP   2. crud->lista() C:\wamp64\www\CRUD\index.php:165
+[10-Apr-2023 02:43:49 UTC] PHP   3. mysqli_query() C:\wamp64\www\CRUD\crud.class.php:100
+[10-Apr-2023 02:43:49 UTC] PHP Warning:  mysqli_affected_rows() expects parameter 1 to be mysqli, null given in C:\wamp64\www\CRUD\crud.class.php on line 102
+[10-Apr-2023 02:43:49 UTC] PHP Stack trace:
+[10-Apr-2023 02:43:49 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[10-Apr-2023 02:43:49 UTC] PHP   2. crud->lista() C:\wamp64\www\CRUD\index.php:165
+[10-Apr-2023 02:43:49 UTC] PHP   3. mysqli_affected_rows() C:\wamp64\www\CRUD\crud.class.php:102
+[10-Apr-2023 02:43:49 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\CRUD\index.php on line 184
+[10-Apr-2023 02:43:49 UTC] PHP Stack trace:
+[10-Apr-2023 02:43:49 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[10-Apr-2023 02:43:49 UTC] PHP Notice:  Undefined variable: n in C:\wamp64\www\CRUD\index.php on line 188
+[10-Apr-2023 02:43:49 UTC] PHP Stack trace:
+[10-Apr-2023 02:43:49 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[10-Apr-2023 02:43:49 UTC] PHP Notice:  Undefined variable: t in C:\wamp64\www\CRUD\index.php on line 192
+[10-Apr-2023 02:43:49 UTC] PHP Stack trace:
+[10-Apr-2023 02:43:49 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[10-Apr-2023 02:45:00 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, object given in C:\wamp64\www\CRUD\crud.class.php on line 100
+[10-Apr-2023 02:45:00 UTC] PHP Stack trace:
+[10-Apr-2023 02:45:00 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[10-Apr-2023 02:45:00 UTC] PHP   2. crud->lista() C:\wamp64\www\CRUD\index.php:165
+[10-Apr-2023 02:45:00 UTC] PHP   3. mysqli_query() C:\wamp64\www\CRUD\crud.class.php:100
+[10-Apr-2023 02:45:00 UTC] PHP Warning:  mysqli_affected_rows() expects parameter 1 to be mysqli, null given in C:\wamp64\www\CRUD\crud.class.php on line 102
+[10-Apr-2023 02:45:00 UTC] PHP Stack trace:
+[10-Apr-2023 02:45:00 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[10-Apr-2023 02:45:00 UTC] PHP   2. crud->lista() C:\wamp64\www\CRUD\index.php:165
+[10-Apr-2023 02:45:00 UTC] PHP   3. mysqli_affected_rows() C:\wamp64\www\CRUD\crud.class.php:102
+[10-Apr-2023 02:45:00 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\CRUD\index.php on line 184
+[10-Apr-2023 02:45:00 UTC] PHP Stack trace:
+[10-Apr-2023 02:45:00 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[10-Apr-2023 02:45:00 UTC] PHP Notice:  Undefined variable: n in C:\wamp64\www\CRUD\index.php on line 188
+[10-Apr-2023 02:45:00 UTC] PHP Stack trace:
+[10-Apr-2023 02:45:00 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[10-Apr-2023 02:45:00 UTC] PHP Notice:  Undefined variable: t in C:\wamp64\www\CRUD\index.php on line 192
+[10-Apr-2023 02:45:00 UTC] PHP Stack trace:
+[10-Apr-2023 02:45:00 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[10-Apr-2023 02:45:22 UTC] PHP Warning:  mysqli_affected_rows() expects parameter 1 to be mysqli, object given in C:\wamp64\www\CRUD\crud.class.php on line 102
+[10-Apr-2023 02:45:22 UTC] PHP Stack trace:
+[10-Apr-2023 02:45:22 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[10-Apr-2023 02:45:22 UTC] PHP   2. crud->lista() C:\wamp64\www\CRUD\index.php:165
+[10-Apr-2023 02:45:22 UTC] PHP   3. mysqli_affected_rows() C:\wamp64\www\CRUD\crud.class.php:102
+[10-Apr-2023 02:45:22 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\CRUD\index.php on line 184
+[10-Apr-2023 02:45:22 UTC] PHP Stack trace:
+[10-Apr-2023 02:45:22 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[10-Apr-2023 02:45:22 UTC] PHP Notice:  Undefined variable: n in C:\wamp64\www\CRUD\index.php on line 188
+[10-Apr-2023 02:45:22 UTC] PHP Stack trace:
+[10-Apr-2023 02:45:22 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[10-Apr-2023 02:45:22 UTC] PHP Notice:  Undefined variable: t in C:\wamp64\www\CRUD\index.php on line 192
+[10-Apr-2023 02:45:22 UTC] PHP Stack trace:
+[10-Apr-2023 02:45:22 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[10-Apr-2023 02:46:12 UTC] PHP Notice:  Undefined variable: id in C:\wamp64\www\CRUD\index.php on line 184
+[10-Apr-2023 02:46:12 UTC] PHP Stack trace:
+[10-Apr-2023 02:46:12 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[10-Apr-2023 02:46:12 UTC] PHP Notice:  Undefined variable: n in C:\wamp64\www\CRUD\index.php on line 188
+[10-Apr-2023 02:46:12 UTC] PHP Stack trace:
+[10-Apr-2023 02:46:12 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[10-Apr-2023 02:46:12 UTC] PHP Notice:  Undefined variable: t in C:\wamp64\www\CRUD\index.php on line 192
+[10-Apr-2023 02:46:12 UTC] PHP Stack trace:
+[10-Apr-2023 02:46:12 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[10-Apr-2023 04:14:15 UTC] PHP Warning:  require_once(mensagens.class.php): failed to open stream: No such file or directory in C:\wamp64\www\CRUD\crud.class.php on line 27
+[10-Apr-2023 04:14:15 UTC] PHP Stack trace:
+[10-Apr-2023 04:14:15 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[10-Apr-2023 04:14:15 UTC] PHP   2. crud->insere() C:\wamp64\www\CRUD\index.php:38
+[10-Apr-2023 04:14:15 UTC] PHP Fatal error:  require_once(): Failed opening required 'mensagens.class.php' (include_path='.;C:\php\pear') in C:\wamp64\www\CRUD\crud.class.php on line 27
+[10-Apr-2023 04:14:15 UTC] PHP Stack trace:
+[10-Apr-2023 04:14:15 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[10-Apr-2023 04:14:15 UTC] PHP   2. crud->insere() C:\wamp64\www\CRUD\index.php:38
+[10-Apr-2023 04:16:18 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in C:\wamp64\www\CRUD\conn.class.php on line 169
+[10-Apr-2023 04:16:18 UTC] PHP Stack trace:
+[10-Apr-2023 04:16:18 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[10-Apr-2023 04:16:18 UTC] PHP   2. crud->insere() C:\wamp64\www\CRUD\index.php:38
+[10-Apr-2023 04:16:18 UTC] PHP   3. conn->ultimoId() C:\wamp64\www\CRUD\crud.class.php:31
+[10-Apr-2023 04:16:18 UTC] PHP   4. mysqli_query() C:\wamp64\www\CRUD\conn.class.php:169
+[10-Apr-2023 04:16:18 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in C:\wamp64\www\CRUD\conn.class.php on line 169
+[10-Apr-2023 04:16:18 UTC] PHP Stack trace:
+[10-Apr-2023 04:16:18 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[10-Apr-2023 04:16:18 UTC] PHP   2. crud->insere() C:\wamp64\www\CRUD\index.php:38
+[10-Apr-2023 04:16:18 UTC] PHP   3. conn->ultimoId() C:\wamp64\www\CRUD\crud.class.php:31
+[10-Apr-2023 04:16:18 UTC] PHP   4. mysqli_error() C:\wamp64\www\CRUD\conn.class.php:169
+[10-Apr-2023 04:17:45 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in C:\wamp64\www\CRUD\crud.class.php on line 41
+[10-Apr-2023 04:17:45 UTC] PHP Stack trace:
+[10-Apr-2023 04:17:45 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[10-Apr-2023 04:17:45 UTC] PHP   2. crud->insere() C:\wamp64\www\CRUD\index.php:37
+[10-Apr-2023 04:17:45 UTC] PHP   3. mysqli_query() C:\wamp64\www\CRUD\crud.class.php:41
+[10-Apr-2023 04:17:45 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in C:\wamp64\www\CRUD\crud.class.php on line 41
+[10-Apr-2023 04:17:45 UTC] PHP Stack trace:
+[10-Apr-2023 04:17:45 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[10-Apr-2023 04:17:45 UTC] PHP   2. crud->insere() C:\wamp64\www\CRUD\index.php:37
+[10-Apr-2023 04:17:45 UTC] PHP   3. mysqli_error() C:\wamp64\www\CRUD\crud.class.php:41

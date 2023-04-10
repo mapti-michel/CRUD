@@ -1,65 +1,118 @@
 <?php
 
-require 'conn.class.php';
+require_once 'conn.class.php';
+
+require_once 'crud.class.php';
+require_once 'crudsql.class.php';
+require_once 'crudoracle.class.php';
+
+
 
 ini_set('display_errors', 1);
 ini_set('log_errors', 1);
 ini_set('error_log', dirname(__FILE__).'/error_log.txt');
 
-$conecta = new conn();
+$conexao = new conn();
+
+$operacao   = addslashes(filter_input(INPUT_GET, 'op'));
 
 
 if($_POST){
 
 
-    $operacao   = addslashes(filter_input(INPUT_GET, 'oper'));
+    $id         = addslashes(filter_input(INPUT_POST, 'id'));
     $nome       = addslashes(filter_input(INPUT_POST, 'nome'));
     $telefone   = addslashes(filter_input(INPUT_POST, 'telefone'));
 
-    switch($operacao){
-        case "cad":
-            // Cadastro
-            try{
-                $ultId = oci_parse($conecta->conectaBanco(), $conecta->ultimoId("tabela_nome", "id"));
-                $sql = "INSERT INTO tabela_nome (id, nome, telefone) VALUES (".$ultId.", ".$nome.", ".$telefone.")";
-    
-                $res = oci_parse($conecta->conectaBanco(), $sql);
-                if(!$res){
-                    echo "Cadastrado com sucesso!";
-                }
-    
-            }catch(Exception $ex){
-                echo $ex->getMessage();
-            }
+    // Cadastro
+    try{
+        $dbmysql    = new crud();
+/*                $dbmssql    = new crudsql();
+        $dbora      = new crudoracle();*/
 
-            break;
-        case "alt":
+
+        //MySql
+        $dbmysql->setNome($nome);
+        $dbmysql->setTelefone($telefone);
+        $dbmysql->insere();
+/*
+        //SqlServer
+        $dbmssql->setNome($nome);
+        $dbmssql->setTelefone($telefone);
+        $dbmssql->insere();
+
+        //Oracle
+        $dbora->setNome($nome);
+        $dbora->setTelefone($telefone);
+        $dbora->insere();
+
+*/    
+    }catch(Exception $ex){
+        echo $ex->getMessage();
+    }
+
+
+
+
+    switch($operacao){
+        case 2:
             // Alteração
             $id     = addslashes(filter_input(INPUT_GET, 'id'));
             try{
-                $sql = "UPDATE tabela1 SET nome = ".$nome.", telefone = ".$telefone." WHERE id = ".$id;
-    
-                $res = oci_parse($conecta->conectaBanco(), $sql);
-                if(!$res){
-                    echo "Atualizado com sucesso!";
-                }
-    
+                $dbmysql    = new crud();
+/*                $dbmssql    = new crudsql();
+                $dbora      = new crudoracle();*/
+
+                //MySql
+                $dbmysql->setId($id);
+                $dbmysql->setNome($nome);
+                $dbmysql->setTelefone($telefone);
+                $dbmysql->altera();
+
+/*
+                //SqlServer
+                $dbmssql->setId($id);
+                $dbmssql->setNome($nome);
+                $dbmssql->setTelefone($telefone);
+                $dbmssql->altera();
+
+                //Oracle
+                $dbora->setId($id);
+                $dbora->setNome($nome);
+                $dbora->setTelefone($telefone);
+                $dbora->altera();
+    */
             }catch(Exception $ex){
                 echo $ex->getMessage();
             }
 
             break;
-        case "exc":
+        case 3:
             // Exclusão
             $id     = addslashes(filter_input(INPUT_GET, 'id'));
                 try{
-                    $sql = "DELETE FROM tabela1 WHERE id =".$id;
-        
-                    $res = oci_parse($conecta->conectaBanco(), $sql);
-                    if(!$res){
-                        echo "Excluído com sucesso!";
-                    }
-        
+                    $dbmysql    = new crud();
+    /*                $dbmssql    = new crudsql();
+                    $dbora      = new crudoracle();*/
+
+                    //MySql
+                    $dbmysql->setId($id);
+                    $dbmysql->setNome($nome);
+                    $dbmysql->setTelefone($telefone);
+                    $dbmysql->exclui();
+    /*
+                    //SqlServer
+                    $dbmssql->setId($id);
+                    $dbmssql->setNome($nome);
+                    $dbmssql->setTelefone($telefone);
+                    $dbmssql->exclui();
+
+                    //Oracle
+                    $dbora->setId($id);
+                    $dbora->setNome($nome);
+                    $dbora->setTelefone($telefone);
+                    $dbora->exclui();
+*/        
                 }catch(Exception $ex){
                     echo $ex->getMessage();
                 }
@@ -84,7 +137,7 @@ if($_POST){
     <body>
         <form action="index.php" method="POST" name="form_crud">
 
-            <table clas="table">
+            <table class="table">
             </thead>
                 <tr>
                     <th>
@@ -105,61 +158,23 @@ if($_POST){
                 <?php
 
                     try{
-                        $sql = "SELECT id, nome, telefone FROM tabela_nome";
 
-                        $tns = "(DESCRIPTION=
-                                    (ADDRESS_LIST = 
-                                        (ADDRESS =  (PROTOCOL = TCP)
-                                                    (HOST = localhost)
-                                                    (PORT = 1521)
-                                        )
-                                    )
-                                    (CONNECT_DATA=
-                                        (SERVER = DEDICATED)
-                                    )
-                                )";
+                        $dbmysql    = new crud();
+//                        $dbmssql    = new crudsql();
+//                        $dbora      = new crudoracle();
 
-                        //$database = "dboracle";
-                        $usuario = "system";
-                        $pass = "m0d#lM";
+                        //MySql
+                        echo "MySQL";
+                        $dbmysql->lista();
 
-                        $conn = new PDO("oci:ORCL=".$tns,$usuario,$pass);
+                        //SqlServer
+//                        echo "SQL Server";
+//                        $dbmssql->lista();
 
-//                        $conn = oci_connect($usuario, $pass, $tns);
-//                        $conn = new PDO("oci:dbname=dboracle;charset=utf8", $usuario, $senha);
+                        //Oracle
+//                        echo "Oracle";
+//                        $dbora->lista();
 
-                        if(!$conn){
-                            echo "Erro de conexão";
-                        }
-
-                        $res = $conn->prepare($sql);
-                        $res->execute();
-
-//                        if($res->oci_num_rows() > 0){
-                            While($dados = $res->fetch(PDO::FETCH_ASSOC)){
-
-                                echo "<tr>";
-                                echo "  <td>";
-                                echo        $dados['id'];
-                                echo "  </td>";
-                                echo "  <td>";
-                                echo        $dados['nome'];
-                                echo "  </td>";
-                                echo "  <td>";
-                                echo        $dados['telefone'];
-                                echo "  </td>";
-                                echo "  <td>";
-                                echo "      <div class='btn-group' role='group' aria-label='Default button group'>";
-                                echo "          <button type='button' class='btn btn-outline-primary' onclick='index,php?id=".$dados['id']."&op=alt'>Alterar</button>";
-                                echo "          <button type='button' class='btn btn-outline-primary' onclick='index,php?id=".$dados['id']."&op=exc'>Excluir</button>";
-                                echo "      </div>";
-                                echo "  </td>";
-                                echo "</tr>";
-
-                            }
-//                        }else{
-//                            return 0;
-//                        }
                     } catch (Exception $ex) {
                         echo "Conexão não estabelecida. Verifique sob o erro: ".$ex->getMessage();
                     }
@@ -168,21 +183,31 @@ if($_POST){
                 </tbody>
             </table>
 
-            <div class="mb-3" style="padding-bottom: 30px">
-                <input type="hidden" class="form-control" value="<?php echo $id ?>" name="id">
-            </div>
-            <div class="mb-3" style="padding-bottom: 30px">
-                <label class="form-label">Nome</label>
-                <input type="text" class="form-control" placeholder="Nome" aria-label="Nome" value="<?php echo $n ?>" name="nome" required>
-            </div>
-            <div class="mb-3" style="padding-bottom: 30px">
-                <label class="form-label">Telefone</label>
-                <input type="tel" class="form-control" placeholder="(xx) xxxx-xxxx" aria-label="Telefone"  value="<?php echo $t ?>" name="telefone" required>
-            </div>
-            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                <button class="btn btn-primary me-md-2" type="button">Salvar</button>
-                <button class="btn btn-outline-primary" type="button">Cancelar</button>
-            </div>            
+<?php
+
+    if($operacao == 1){
+
+            echo "<div class='mb-3' style='padding-bottom: 30px'>";
+            echo "  <input type='hidden' class='form-control' name='id'>";
+            echo "</div>";
+            echo "<div class='mb-3' style='padding-bottom: 30px'>";
+            echo "  <label class='form-label'>Nome</label>";
+            echo "  <input type='text' class='form-control' placeholder='Nome' aria-label='Nome' name='nome' required>";
+            echo "</div>";
+            echo "<div class='mb-3' style='padding-bottom: 30px'>";
+            echo "  <label class='form-label'>Telefone</label>";
+            echo "  <input type='tel' class='form-control' placeholder='(xx) xxxx-xxxx' aria-label='Telefone' name='telefone' required>";
+            echo "</div>";
+            echo "<div class='d-grid gap-2 d-md-flex justify-content-md-end'>";
+            echo "  <button class='btn btn-primary me-md-2' type='submit'>Salvar</button>";
+            echo "  <button class='btn btn-outline-primary' type='button'>Cancelar</button>";
+            echo "</div>";
+
+    }
+
+
+?>
+
         </form>
 
 
