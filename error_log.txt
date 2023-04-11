@@ -952,3 +952,16 @@ Stack trace:
 [10-Apr-2023 04:17:45 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
 [10-Apr-2023 04:17:45 UTC] PHP   2. crud->insere() C:\wamp64\www\CRUD\index.php:37
 [10-Apr-2023 04:17:45 UTC] PHP   3. mysqli_error() C:\wamp64\www\CRUD\crud.class.php:41
+[11-Apr-2023 04:52:16 UTC] PHP Warning:  require_once(mensagens.class.php): failed to open stream: No such file or directory in C:\wamp64\www\CRUD\crud.class.php on line 51
+[11-Apr-2023 04:52:16 UTC] PHP Stack trace:
+[11-Apr-2023 04:52:16 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[11-Apr-2023 04:52:16 UTC] PHP   2. crud->altera() C:\wamp64\www\CRUD\index.php:53
+[11-Apr-2023 04:52:16 UTC] PHP Fatal error:  require_once(): Failed opening required 'mensagens.class.php' (include_path='.;C:\php\pear') in C:\wamp64\www\CRUD\crud.class.php on line 51
+[11-Apr-2023 04:52:16 UTC] PHP Stack trace:
+[11-Apr-2023 04:52:16 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[11-Apr-2023 04:52:16 UTC] PHP   2. crud->altera() C:\wamp64\www\CRUD\index.php:53
+[11-Apr-2023 04:52:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in C:\wamp64\www\CRUD\crud.class.php:57
+Stack trace:
+#0 C:\wamp64\www\CRUD\index.php(53): crud->altera()
+#1 {main}
+  thrown in C:\wamp64\www\CRUD\crud.class.php on line 57

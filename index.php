@@ -15,73 +15,41 @@ ini_set('error_log', dirname(__FILE__).'/error_log.txt');
 $conexao = new conn();
 
 $operacao   = addslashes(filter_input(INPUT_GET, 'op'));
+$idSelec    = addslashes(filter_input(INPUT_GET, 'id'));
 
 
 if($_POST){
 
-
-    $id         = addslashes(filter_input(INPUT_POST, 'id'));
     $nome       = addslashes(filter_input(INPUT_POST, 'nome'));
     $telefone   = addslashes(filter_input(INPUT_POST, 'telefone'));
 
-    // Cadastro
-    try{
-        $dbmysql    = new crud();
-/*                $dbmssql    = new crudsql();
-        $dbora      = new crudoracle();*/
 
-
-        //MySql
-        $dbmysql->setNome($nome);
-        $dbmysql->setTelefone($telefone);
-        $dbmysql->insere();
-/*
-        //SqlServer
-        $dbmssql->setNome($nome);
-        $dbmssql->setTelefone($telefone);
-        $dbmssql->insere();
-
-        //Oracle
-        $dbora->setNome($nome);
-        $dbora->setTelefone($telefone);
-        $dbora->insere();
-
-*/    
-    }catch(Exception $ex){
-        echo $ex->getMessage();
-    }
-
-
-
-
+    //MySql
     switch($operacao){
-        case 2:
-            // Alteração
-            $id     = addslashes(filter_input(INPUT_GET, 'id'));
+        case 1:
+            // Cadastro
             try{
                 $dbmysql    = new crud();
-/*                $dbmssql    = new crudsql();
-                $dbora      = new crudoracle();*/
 
-                //MySql
-                $dbmysql->setId($id);
+                $dbmysql->setNome($nome);
+                $dbmysql->setTelefone($telefone);
+                $dbmysql->insere();
+
+            }catch(Exception $ex){
+                echo $ex->getMessage();
+            }
+
+            break;
+        case 2:
+            // Alteração
+            try{
+                $dbmysql    = new crud();
+
+                $dbmysql->setId($idSelec);
                 $dbmysql->setNome($nome);
                 $dbmysql->setTelefone($telefone);
                 $dbmysql->altera();
 
-/*
-                //SqlServer
-                $dbmssql->setId($id);
-                $dbmssql->setNome($nome);
-                $dbmssql->setTelefone($telefone);
-                $dbmssql->altera();
-
-                //Oracle
-                $dbora->setId($id);
-                $dbora->setNome($nome);
-                $dbora->setTelefone($telefone);
-                $dbora->altera();
-    */
             }catch(Exception $ex){
                 echo $ex->getMessage();
             }
@@ -89,30 +57,11 @@ if($_POST){
             break;
         case 3:
             // Exclusão
-            $id     = addslashes(filter_input(INPUT_GET, 'id'));
                 try{
                     $dbmysql    = new crud();
-    /*                $dbmssql    = new crudsql();
-                    $dbora      = new crudoracle();*/
-
-                    //MySql
-                    $dbmysql->setId($id);
-                    $dbmysql->setNome($nome);
-                    $dbmysql->setTelefone($telefone);
+                    $dbmysql->setId($idSelec);
                     $dbmysql->exclui();
-    /*
-                    //SqlServer
-                    $dbmssql->setId($id);
-                    $dbmssql->setNome($nome);
-                    $dbmssql->setTelefone($telefone);
-                    $dbmssql->exclui();
 
-                    //Oracle
-                    $dbora->setId($id);
-                    $dbora->setNome($nome);
-                    $dbora->setTelefone($telefone);
-                    $dbora->exclui();
-*/        
                 }catch(Exception $ex){
                     echo $ex->getMessage();
                 }
@@ -133,9 +82,12 @@ if($_POST){
             TESTE CRUD          
         </title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous"/>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>        
+
     </head>
     <body>
-        <form action="index.php" method="POST" name="form_crud">
 
             <table class="table">
             </thead>
@@ -158,22 +110,10 @@ if($_POST){
                 <?php
 
                     try{
-
                         $dbmysql    = new crud();
-//                        $dbmssql    = new crudsql();
-//                        $dbora      = new crudoracle();
-
-                        //MySql
-                        echo "MySQL";
+                        echo "<h2 class='alert alert-primary'>CRUD</h2>";
                         $dbmysql->lista();
 
-                        //SqlServer
-//                        echo "SQL Server";
-//                        $dbmssql->lista();
-
-                        //Oracle
-//                        echo "Oracle";
-//                        $dbora->lista();
 
                     } catch (Exception $ex) {
                         echo "Conexão não estabelecida. Verifique sob o erro: ".$ex->getMessage();
@@ -184,9 +124,10 @@ if($_POST){
             </table>
 
 <?php
-
-    if($operacao == 1){
-
+    
+    switch ($operacao) {
+        case 1:
+            echo "<form action='index.php?op=1' method='POST' name='form_crud'>";
             echo "<div class='mb-3' style='padding-bottom: 30px'>";
             echo "  <input type='hidden' class='form-control' name='id'>";
             echo "</div>";
@@ -202,13 +143,34 @@ if($_POST){
             echo "  <button class='btn btn-primary me-md-2' type='submit'>Salvar</button>";
             echo "  <button class='btn btn-outline-primary' type='button'>Cancelar</button>";
             echo "</div>";
+            break;
 
+        case 2:
+            $dbmysql = new crud();
+            $dbmysql->setId($idSelec);
+            $dbmysql->listaComId();
+
+            break;
+
+        case 3:
+            $dbmysql    = new crud();
+            $dbmysql->setId($idSelec);
+            $dbmysql->exclui();
+
+
+            break;            
+        
+        default:
+            echo "";
+            break;
     }
 
 
+    
 ?>
 
         </form>
+
 
 
     </body>
