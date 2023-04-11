@@ -113,8 +113,6 @@ class crud{
 	                echo "  </td>";
 	                echo "  <td>";
 	                echo "      <div class='btn-group' role='group' aria-label='Default button group'>";
-	                echo "          <a class='btn btn-outline-primary' href='index.php?op=1'>Novo</a>";
-	                echo "      <div class='btn-group' role='group' aria-label='Default button group'>";
 	                echo "          <a class='btn btn-outline-primary' href='index.php?op=2&id=".$dados['id']."'>Alterar</button>";
 	                echo "          <a class='btn btn-outline-primary' href='index.php?op=3&id=".$dados['id']."'>Excluir</a>";
 	                echo "      </div>";
@@ -162,7 +160,7 @@ class crud{
             echo "</div>";
             echo "<div class='d-grid gap-2 d-md-flex justify-content-md-end'>";
             echo "  <button class='btn btn-primary me-md-2' type='submit'>Salvar</button>";
-            echo "  <button class='btn btn-outline-primary' type='button'>Cancelar</button>";
+            echo "  <a class='btn btn-outline-primary' href='index.php'>Cancelar</a>";
             echo "</div>";
 
 //            echo "</form>";

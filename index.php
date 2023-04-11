@@ -112,6 +112,10 @@ if($_POST){
                     try{
                         $dbmysql    = new crud();
                         echo "<h2 class='alert alert-primary'>CRUD</h2>";
+                        echo "<div class='d-grid gap-2 col-6 mx-auto' style='padding-bottom: 20px;'>";
+                        echo "  <a class='btn btn-primary' href='index.php?op=1'>Novo +</a>";
+                        echo "</div>";
+                        echo "<hr style='padding-bottom: 20px;'>";
                         $dbmysql->lista();
 
 
@@ -141,7 +145,7 @@ if($_POST){
             echo "</div>";
             echo "<div class='d-grid gap-2 d-md-flex justify-content-md-end'>";
             echo "  <button class='btn btn-primary me-md-2' type='submit'>Salvar</button>";
-            echo "  <button class='btn btn-outline-primary' type='button'>Cancelar</button>";
+            echo "  <a class='btn btn-outline-primary' href='index.php'>Cancelar</a>";
             echo "</div>";
             break;
 
