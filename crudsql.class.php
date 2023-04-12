@@ -25,7 +25,6 @@ class crudsql{
 	public function insere(){
 	    try{
 	    	require_once "conn.class.php";
-	    	require_once "mensagens.class.php";
 
 	    	$conecta = new conn();
 	    	$conecta->conectaBancoSqlServer();
@@ -36,7 +35,7 @@ class crudsql{
 
 	        $sql = "INSERT INTO tabela_nome (id, nome, telefone) VALUES (".$this->id.", '".$this->nome."', '".$this->telefone."')";
 
-	        $res = mssql_query($sql) or die (mensagens::ERROR_SQL_INSERT);
+	        $res = mssql_query($sql) or die ("Erro ao incluir os dados.");
 	        if($res){
 	        	echo "Cadastrado com sucesso!";
 	        }
@@ -50,14 +49,13 @@ class crudsql{
 	public function altera(){
 	    try{
 	    	require_once "conn.class.php";
-	    	require_once "mensagens.class.php";
 
 	    	$conecta = new conn();
 	    	$conecta->conectaBancoSqlServer();
 
 	        $sql = "UPDATE tabela_nome SET nome = '".$this->nome."', telefone = '".$this->telefone."'' WHERE id = ".$this->id;
 
-	        $res = mssql_query($sql) or die (mensagens::ERROR_SQL_UPDATE);
+	        $res = mssql_query($sql) or die ("Erro ao alterar os dados.");
 	        if($res){
 	            echo "Atualizado com sucesso!";
 	        }
@@ -70,14 +68,13 @@ class crudsql{
 	public function exclui(){
 	    try{
 	    	require_once "conn.class.php";
-	    	require_once "mensagens.class.php";
 
 	    	$conecta = new conn();
 	    	$conecta->conectaBancoSqlServer();
 
 	        $sql = "DELETE FROM tabela_nome WHERE id =".$this->id;
 
-	        $res = mssql_query($sql) or die (mensagens::ERROR_SQL_DELETE);
+	        $res = mssql_query($sql) or die ("Erro ao excluir os dados.");
 	        if($res){
 	            echo "Excluído com sucesso!";
 	        }
@@ -92,14 +89,13 @@ class crudsql{
 	    try{
 
 	    	require_once "conn.class.php";
-	    	require_once "mensagens.class.php";
 
 	    	$conecta = new conn();
 	    	$conecta->conectaBancoSqlServer();
 
-	        $sql = "SELECT id, nome, telefone FROM tabela_nome";
+	        $sql = "SELECT id, nome, telefone FROM dbo.tabela_nome";
 
-	        $res = mssql_query($sql) or die(mensagens::ERROR_SQL_LISTA);
+	        $res = mssql_query($sql) or die("Erro");
 
 	        if(mssql_num_rows($res) > 0){ 
 	            While($dados = mssql_fetch_array($res)){

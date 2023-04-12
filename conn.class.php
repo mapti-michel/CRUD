@@ -105,16 +105,17 @@ class conn{
         $this->setUsuario($ini['localsql']['user']);
         $this->setSenha($ini['localsql']['pass']);
         $this->setHost($ini['localsql']['host']);
-        $this->setServer($ini['localsql']['server']);
         $this->setDatabase($ini['localsql']['database']);
-        $this->setPorta($ini['localsql']['database']);
+        $this->setPorta($ini['localsql']['porta']);
 
         try{
 
             //SQL Server
-            $conecta = mssql_connect($this->host, $this->usuario, $this->senha) or die("Há um problema de conexão com o servidor");
+            $conecta = $pdo = new PDO ("mssql:host=$this->host;dbname=$this->database","$this->usuario","$this->senha");
 
-            mssql_select_db($this->database) or die("Erro ao selecionar a base de dados");
+            //mssql_connect($this->host, $this->usuario, $this->senha) or die("Há um problema de conexão com o servidor");
+
+            //mssql_select_db($this->database) or die("Erro ao selecionar a base de dados");
 
             return $conecta;
     

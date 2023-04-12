@@ -16,6 +16,7 @@ $conexao = new conn();
 
 $operacao   = addslashes(filter_input(INPUT_GET, 'op'));
 $idSelec    = addslashes(filter_input(INPUT_GET, 'id'));
+$message    = addslashes(filter_input(INPUT_GET, 'm'));
 
 
 if($_POST){
@@ -110,6 +111,7 @@ if($_POST){
                 <?php
 
                     try{
+
                         $dbmysql    = new crud();
                         echo "<h2 class='alert alert-primary'>CRUD</h2>";
                         echo "<div class='d-grid gap-2 col-6 mx-auto' style='padding-bottom: 20px;'>";
@@ -174,6 +176,28 @@ if($_POST){
 ?>
 
         </form>
+
+<?php
+    switch ($message) {
+        case 1:
+            echo "<h6 class='alert alert-info'>Criado com sucesso !</h6>";
+            echo "<meta http-equiv='refresh' content='5;url=index.php'>";
+            break;
+        case 2:
+            echo "<h6 class='alert alert-warning'>Alterado com sucesso !</h6>";
+            echo "<meta http-equiv='refresh' content='5;url=index.php'>";
+            break;
+        case 3:
+            echo "<h6 class='alert alert-danger'>Excluído com sucesso !</h6>";
+            echo "<meta http-equiv='refresh' content='5;url=index.php'>";
+            break;
+        
+        default:
+            echo "";
+            break;
+    }
+
+?>
 
 
 

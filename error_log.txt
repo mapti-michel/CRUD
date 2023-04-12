@@ -965,3 +965,72 @@ Stack trace:
 #0 C:\wamp64\www\CRUD\index.php(53): crud->altera()
 #1 {main}
   thrown in C:\wamp64\www\CRUD\crud.class.php on line 57
+[12-Apr-2023 03:56:15 UTC] PHP Warning:  require_once(mensagens.class.php): failed to open stream: No such file or directory in C:\wamp64\www\CRUD\crudsql.class.php on line 95
+[12-Apr-2023 03:56:15 UTC] PHP Stack trace:
+[12-Apr-2023 03:56:15 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[12-Apr-2023 03:56:15 UTC] PHP   2. crudsql->lista() C:\wamp64\www\CRUD\index.php:122
+[12-Apr-2023 03:56:15 UTC] PHP Fatal error:  require_once(): Failed opening required 'mensagens.class.php' (include_path='.;C:\php\pear') in C:\wamp64\www\CRUD\crudsql.class.php on line 95
+[12-Apr-2023 03:56:15 UTC] PHP Stack trace:
+[12-Apr-2023 03:56:15 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[12-Apr-2023 03:56:15 UTC] PHP   2. crudsql->lista() C:\wamp64\www\CRUD\index.php:122
+[12-Apr-2023 03:58:51 UTC] PHP Notice:  Undefined index: server in C:\wamp64\www\CRUD\conn.class.php on line 108
+[12-Apr-2023 03:58:51 UTC] PHP Stack trace:
+[12-Apr-2023 03:58:51 UTC] PHP   1. {main}() C:\wamp64\www\CRUD\index.php:0
+[12-Apr-2023 03:58:51 UTC] PHP   2. crudsql->lista() C:\wamp64\www\CRUD\index.php:122
+[12-Apr-2023 03:58:51 UTC] PHP   3. conn->conectaBancoSqlServer() C:\wamp64\www\CRUD\crudsql.class.php:94
+[12-Apr-2023 03:58:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mssql_connect() in C:\wamp64\www\CRUD\conn.class.php:115
+Stack trace:
+#0 C:\wamp64\www\CRUD\crudsql.class.php(94): conn->conectaBancoSqlServer()
+#1 C:\wamp64\www\CRUD\index.php(122): crudsql->lista()
+#2 {main}
+  thrown in C:\wamp64\www\CRUD\conn.class.php on line 115
+[12-Apr-2023 04:00:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mssql_connect() in C:\wamp64\www\CRUD\conn.class.php:114
+Stack trace:
+#0 C:\wamp64\www\CRUD\crudsql.class.php(94): conn->conectaBancoSqlServer()
+#1 C:\wamp64\www\CRUD\index.php(122): crudsql->lista()
+#2 {main}
+  thrown in C:\wamp64\www\CRUD\conn.class.php on line 114
+[12-Apr-2023 04:02:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mssql_connect() in C:\wamp64\www\CRUD\conn.class.php:114
+Stack trace:
+#0 C:\wamp64\www\CRUD\crudsql.class.php(94): conn->conectaBancoSqlServer()
+#1 C:\wamp64\www\CRUD\index.php(122): crudsql->lista()
+#2 {main}
+  thrown in C:\wamp64\www\CRUD\conn.class.php on line 114
+[12-Apr-2023 04:03:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mssql_connect() in C:\wamp64\www\CRUD\conn.class.php:114
+Stack trace:
+#0 C:\wamp64\www\CRUD\crudsql.class.php(94): conn->conectaBancoSqlServer()
+#1 C:\wamp64\www\CRUD\index.php(122): crudsql->lista()
+#2 {main}
+  thrown in C:\wamp64\www\CRUD\conn.class.php on line 114
+[12-Apr-2023 04:07:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mssql_connect() in C:\wamp64\www\CRUD\conn.class.php:114
+Stack trace:
+#0 C:\wamp64\www\CRUD\crudsql.class.php(94): conn->conectaBancoSqlServer()
+#1 C:\wamp64\www\CRUD\index.php(122): crudsql->lista()
+#2 {main}
+  thrown in C:\wamp64\www\CRUD\conn.class.php on line 114
+[12-Apr-2023 04:11:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mssql_connect() in C:\wamp64\www\CRUD\conn.class.php:114
+Stack trace:
+#0 C:\wamp64\www\CRUD\crudsql.class.php(94): conn->conectaBancoSqlServer()
+#1 C:\wamp64\www\CRUD\index.php(122): crudsql->lista()
+#2 {main}
+  thrown in C:\wamp64\www\CRUD\conn.class.php on line 114
+[12-Apr-2023 04:15:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mssql_query() in C:\wamp64\www\CRUD\crudsql.class.php:98
+Stack trace:
+#0 C:\wamp64\www\CRUD\index.php(122): crudsql->lista()
+#1 {main}
+  thrown in C:\wamp64\www\CRUD\crudsql.class.php on line 98
+[12-Apr-2023 04:17:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mssql_query() in C:\wamp64\www\CRUD\crudsql.class.php:98
+Stack trace:
+#0 C:\wamp64\www\CRUD\index.php(122): crudsql->lista()
+#1 {main}
+  thrown in C:\wamp64\www\CRUD\crudsql.class.php on line 98
+[12-Apr-2023 04:23:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mssql_query() in C:\wamp64\www\CRUD\crudsql.class.php:98
+Stack trace:
+#0 C:\wamp64\www\CRUD\index.php(122): crudsql->lista()
+#1 {main}
+  thrown in C:\wamp64\www\CRUD\crudsql.class.php on line 98
+[12-Apr-2023 04:23:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mssql_query() in C:\wamp64\www\CRUD\crudsql.class.php:98
+Stack trace:
+#0 C:\wamp64\www\CRUD\index.php(122): crudsql->lista()
+#1 {main}
+  thrown in C:\wamp64\www\CRUD\crudsql.class.php on line 98

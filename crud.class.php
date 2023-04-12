@@ -26,7 +26,6 @@ class crud{
 	    	require_once "conn.class.php";
 
 	    	$conecta = new conn();
-	    	$conecta->conectaBanco();
 
 	        $ultId = $conecta->ultimoId("tabela_nome", "id");
 
@@ -36,8 +35,7 @@ class crud{
 
 	        $res = mysqli_query($conecta->conectaBanco(), $sql) or die ("Erro ao inserir os dados. Error: ".mysqli_error());
 	        if($res){
-	        	echo "<h5 style='font-color:green;'>Cadastrado com sucesso!</h5><br>";
-	            echo "<meta http-equiv='refresh' content='2;url=index.php'>";
+	            echo "<meta http-equiv='refresh' content='0;url=index.php?m=1'>";
 	        }
 
 	    }catch(Exception $ex){
@@ -57,8 +55,7 @@ class crud{
 
 	        $res = mysqli_query($conecta->conectaBanco(), $sql) or die ("Erro ao alterar os dados. Error: ".mysqli_error());
 	        if($res){
-	            echo "<h5 style='font-color:green;'>Atualizado com sucesso!</h5><br>";
-	            echo "<meta http-equiv='refresh' content='2;url=index.php'>";
+	            echo "<meta http-equiv='refresh' content='0;url=index.php?m=2'>";
 	        }
 
 	    }catch(Exception $ex){
@@ -74,10 +71,9 @@ class crud{
 
 	        $sql = "DELETE FROM tabela_nome WHERE id =".$this->id;
 
-	        $res = mysqli_query($conecta->conectaBanco(), $sql) or die ("Erro ao alterar os dados. Error: ".mysqli_error());
+	        $res = mysqli_query($conecta->conectaBanco(), $sql) or die ("Erro ao excluir os dados. Error: ".mysqli_error());
 	        if($res){
-	            echo "<h5 style='font-color:green;'>Excluído com sucesso!</h5><br>";
-	            echo "<meta http-equiv='refresh' content='2;url=index.php'>";
+	            echo "<meta http-equiv='refresh' content='0;url=index.php?m=3'>";
 	        }
 
 	    }catch(Exception $ex){
@@ -96,7 +92,7 @@ class crud{
 
 	        $sql = "SELECT id, nome, telefone FROM tabela_nome";
 
-	        $res = mysqli_query($conecta->conectaBanco(), $sql);// or die("Erro ao executar o comando SQL ao listar dados. SQL: ".$sql);
+	        $res = mysqli_query($conecta->conectaBanco(), $sql);
 
 	        if(mysqli_num_rows($res) > 0){ 
 	            While($dados = mysqli_fetch_assoc($res)){
@@ -136,7 +132,6 @@ class crud{
 	    	require_once "conn.class.php";
 
 	    	$conecta = new conn();
-	    	$conecta->conectaBanco();
 
 	        $sql = "SELECT id, nome, telefone FROM tabela_nome where id = ".$this->id;
 
